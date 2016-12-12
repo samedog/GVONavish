@@ -1,5 +1,5 @@
-This is a translation of GVONavish (Japanese), since it has a little more functionality
-over GVONavi (route manager) maybe will add notes and other fucntions depending on my needs (for now).
+This is a translation of GVONavish (Japanese) for GAMA server since it has a little more functionality
+over GVONavi (mostly the route manager) maybe will add notes and other fucntions depending on my needs.
 
 Site:
 https://github.com/samedog/GVONavish
@@ -55,4 +55,3 @@ http://sourceforge.jp/ticket/newticket.php?group_id=9138
 
 · Twitter account for report / request reception (occasionally blog)
 http://twitter.com/MandhelingFreak
-
