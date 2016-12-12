@@ -11,8 +11,8 @@ class GVOShipRouteList;
 
 class GVORenderer :private GVONoncopyable {
 private:
-	const GVOWorldMap * m_worldMap;	//!<@brief 世界地図
-	GVOTexture * m_worldMapTexture;	//!<@brief 世界地図テクスチャー
+	const GVOWorldMap * m_worldMap;	//!<@brief world map
+	GVOTexture * m_worldMapTexture;	//!<@brief World map texture
 
 	HDC m_hdcPrimary;
 	HGLRC m_hglrc;
@@ -20,11 +20,11 @@ private:
 	SIZE m_viewSize;
 	double m_viewScale;
 
-	POINT m_focusPointInWorldCoord;		//!<@brief 画面中央に位置するピクセルの世界座標
-	POINT m_shipPointInWorld;			//!<@brief 自船の位置
-	bool m_shipVectorLineEnabled;		//!<@brief 針路描画フラグ
-	bool m_speedMeterEnabled;			//!<@brief 速度計描画フラグ
-	bool m_traceShipEnabled;			//!<@brief 自船位置追従フラグ
+	POINT m_focusPointInWorldCoord;		//!<@brief World coordinates of pixels located in the center of the screen
+	POINT m_shipPointInWorld;			//!<@brief Position of own ship
+	bool m_shipVectorLineEnabled;		//!<@brief Heading drawing flag
+	bool m_speedMeterEnabled;			//!<@brief Speedometer drawing flag
+	bool m_traceShipEnabled;			//!<@brief Ship's position following flag
 
 public:
 	GVORenderer() :
@@ -56,10 +56,10 @@ public:
 		return m_viewScale;
 	}
 
-	//!@note ドラッグ処理用
+	//!@note For drag processing
 	void offsetFocusInViewCoord( const POINT& offset );
 
-	//!@brief 自船の状態を設定する
+	//!@brief Set the state of your ship
 	void setShipPositionInWorld( const POINT& shipPositionInWorld );
 
 	void enableTraceShip( bool enabled )
@@ -81,7 +81,7 @@ public:
 
 	GVOTexture * createTextureFromImage( const GVOImage & image );
 private:
-	//!@brief 設定情報で初期化する
+	//!@brief Initialize with setting information
 	void setConfig( const GVOConfig * config );
 	void setupGL();
 	void setWorldMap( const GVOWorldMap * worldMap );
