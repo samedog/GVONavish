@@ -1,47 +1,57 @@
-﻿測量スキルが使用されているとそこから座標を読みとり、その周囲を表示するツールです。
-本家GVONavi(http://www003.upp.so-net.ne.jp/mimizu/)の更新が停止したのでテキトーに真似ました。
+﻿This is a translation of GVONavish (Japanese), since it has a little more functionality
+over GVONavi (route manager) maybe will add notes and other fucntions depending on my needs (for now).
+
+Site:
+https://github.com/samedog/GVONavish
 
 
-測量座標が画面に見えてないと動きません。
-地図画像は横4096縦2048ピクセルで動作確認してます。
-それ以外はめんどいので要望がなければ未対応とします。多分２：１なら動くんじゃないかな（希望的観測
-要望などは後述の課題トラッカー、もしくはツイッターアカウントに投げつけてもらえれば気が向いたときに考えます。
-
-ver1.2から3Dグラフィック機能で高速化してますが、4096x2048サイズのテクスチャが作れない旧式PC環境だと動かないかもしれません。
-その場合は旧バージョンをお使いください。
-かなり手抜き実装な為ですが改善予定はありません。
+------------------------------ ORIGINAL README TRANLATED BELOW---------------------------------------
 
 
-操作方法
-・地図上を右クリックでメニュー表示
-・クリック＆ドラッグで表示位置の移動
-・マウスホイール（またはテンキーの+/-）で拡大縮小
-・F1キーで常に全面に表示ON/OFF
+When the surveying skill is used, the tool reads the coordinates from it and displays the surroundings.
+Updates for GVONavi (http://www003.upp.so-net.ne.jp/mimizu/) stopped, so we imitated the texture.
 
 
-免責
-・本アプリを使って生じた損害とかそういうのは責任取れません。
-・明らかなバグは善処します。
-・改善要求もなるだけ善処します。
+It will not work unless the survey coordinates are visible on the screen.
+The map image is confirmed with 4096 horizontal 2048 pixels vertical.
+Otherwise it is a pain because it is a painless request. Perhaps it will work if it is 2:1 (wishful observation)
+I think about requests etc. when I feel like being able to throw it to the problem tracker or twitter account which will be described later.
+
+I am speeding up from ver1.2 with 3D graphics function, but it may not work if it is an old PC environment where 4096 x 2048 size texture can not be created.
+In that case please use the old version.
+It is because it is quite a handmade implementation, but there is no improvement plan.
 
 
-アプリ公式サイト（sourceforge.jp）
+Method of operation
+· Right-click on the map to display the menu
+· Click and drag to move display position
+· Scale by mouse wheel (or +/- numeric keys)
+· Always display on the whole surface with F1 key ON / OFF
+
+
+Disclaimer
+· We can not take responsibility for damages caused by using this application.
+· Clear bugs are dealt with properly.
+· We will do our best to make improvements as much as possible.
+
+
+Application official website (sourceforge.jp)
 http://gvonavish.sourceforge.jp/
 
 
-不具合報告や要望など
+Bug reports and requests
 
-ざっくりとこちら（http://sourceforge.jp/projects/gvonavish/wiki/バグ報告や機能提案について）で説明してますが、
-リンクのみ以下に抜粋します。
+It is explained roughly in here (http://sourceforge.jp/projects/gvonavish/wiki/ bug report and function proposal)
+Extract only the link below.
 
-・不具合報告フォーラム（匿名でok）
+ Bug report forum (anonymously ok)
 http://sourceforge.jp/projects/gvonavish/forums/31688/
 
-・公開討議フォーラム（匿名でok。要望など）
+· Open Discussion Forum (Anonymously ok. Request etc.)
 http://sourceforge.jp/projects/gvonavish/forums/31685/
 
-・バグレポート作成（匿名でok）
+· Bug report creation (anonymously ok)
 http://sourceforge.jp/ticket/newticket.php?group_id=9138
 
-・報告／要望受付（たまにぼやき）用ツイッターアカウント
+· Twitter account for report / request reception (occasionally blog)
 http://twitter.com/MandhelingFreak
