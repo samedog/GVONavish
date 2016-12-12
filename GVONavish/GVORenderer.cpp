@@ -5,6 +5,7 @@
 #include "GVOTexture.h"
 #include "GVOShipRouteList.h"
 #include "GVOShipRoute.h"
+#include "Cities.h"
 
 
 
@@ -13,15 +14,15 @@ namespace {
 	const double k_minScale = 0.125;	// 12.5%
 	const double k_maxScale = 4.00;		// 400%
 
-	// Google先生曰く「地球の外周は40,075km」「1ノットは1.85200km」
-	// 1世界座標は40,075km/16384points
-	// 実時間1秒でゲーム内0.4時間
+	// Professor Google says "the outer circumference of the earth is 40,075 km", "1 knot is 1.85200 km"
+	// 1 World coordinates are 40,075 km / 16384 points
+	// 0.4 hours in game with real time 1 second
 	//
-	// 地球外周を赤道半径から算出する。
-	// 赤道半径は6378.137なので外周は2*M_PI_*6378.137
+	// Calculate the outer circumference of the earth from the equatorial radius
+	// Since the equatorial radius is 6378.137, the outer circumference is 2 * M_PI_ * 6378.137
 	//
-	// 9周年記念イベントの「0.1km」発言及びミッション１での航行距離集計値から1世界座標=0.1kmと判明。
-	// とはいえ覆される可能性も高いので保留としておく。
+	// 	"0.1 km" remark of the 9th anniversary commemorative event and 1 total world coordinate = 0.1 km from the total travel distance in mission 1.
+	// 	However, it is likely to be overturned, so keep it on hold.
 	inline double s_velocityByKnot( const double velocity )
 	{
 		static const double k_knotFactor = (2 * M_PI * 6378.137) / 16384.0 / 0.4 / 1.852;
@@ -249,19 +250,19 @@ void GVORenderer::renderMap( const GVOVector& shipVector, GVOTexture * shipTextu
 	if ( 0 < xDrawOrigin ) {
 		xDrawOrigin = (xDrawOrigin % mapSize.cx) - mapSize.cx;
 	}
-	const int xInitial = xDrawOrigin;	// 左端の描画開始x座標
+	const int xInitial = xDrawOrigin;	// The leftmost x coordinate of drawing start
 	int drawn = xInitial;
 
-	// 世界地図を横に並べて描画
-	// （描画最適化は省略）
+	// Draw world map side by side
+	// (Omit drawing optimization)
 	::glMatrixMode( GL_MODELVIEW );
 	::glLoadIdentity();
 	::glTranslatef( (float)xDrawOrigin, (float)yDrawOrigin, 0 );
 	while ( drawn < m_viewSize.cx ) {
-		// 地図を1枚描画
+		// Draw a map
 		renderTexture( *m_worldMapTexture, (float)mapSize.cx, (float)mapSize.cy );
 
-		// 航路を1枚分描画
+		// Draw one route
 		renderShipRouteList( mapSize.cx, mapSize.cy, shipRouteList );
 
 		xDrawOrigin += mapSize.cx;
@@ -270,14 +271,14 @@ void GVORenderer::renderMap( const GVOVector& shipVector, GVOTexture * shipTextu
 	}
 
 
-	// 不正な自船位置ならこれ以降の描画はしない。
+	// If it is an invalid self-ship position, it will not draw after this.
 	if ( m_shipPointInWorld.x < 0 || m_shipPointInWorld.y < 0 ) {
 		return;
 	}
 
 	const POINT shipPointOffset = drawOffsetFromWorldCoord( m_shipPointInWorld );
 
-	// 針路予測線を描画
+	// Draw a course prediction line
 	if ( shipVector.length() != 0.0 && m_shipVectorLineEnabled ) {
 		const float lineWidth = max<float>( 1, float( 1 * m_viewScale ) );
 		::glLineWidth( lineWidth );
@@ -288,7 +289,7 @@ void GVORenderer::renderMap( const GVOVector& shipVector, GVOTexture * shipTextu
 			shipVector.pointFromOriginWithLength( m_shipPointInWorld, k_lineLength )
 			);
 
-		// 見えてる地図画像の分だけ描画する
+		// Draw as much as the visible map image
 		drawn = xInitial;
 		xDrawOrigin = xInitial;
 		::glMatrixMode( GL_MODELVIEW );
@@ -307,11 +308,11 @@ void GVORenderer::renderMap( const GVOVector& shipVector, GVOTexture * shipTextu
 	}
 
 
-	// 自船の位置を描画
+	// Draw the position of own ship
 	if ( shipTexture ) {
 		const float shipMarkSize = 16.0f;
 
-		// 見えてる地図画像の分だけ描画する
+		// Draw as much as the visible map image
 		drawn = xInitial;
 		xDrawOrigin = xInitial;
 		::glMatrixMode( GL_MODELVIEW );
@@ -342,26 +343,26 @@ void GVORenderer::renderShipRouteList( int width, int height, const GVOShipRoute
 	_ASSERT( 0 <= height );
 	_ASSERT(shipRouteList != NULL);
 
-	// TODO: タココード
+	// TODO: Taco code
 
 	const float lineWidth = max<float>( 1, float( 1 * m_viewScale ) );
 	const float hilightLineWidth = lineWidth * 1.5f;
 	::glLineWidth( lineWidth );
-	// 最新航路以外を半透明で描画
+	// Draw translucency other than the latest route
 	if ( 1 < shipRouteList->getList().size() ) {
 		::glEnable( GL_BLEND );
 		::glBlendFunc( GL_SRC_ALPHA, GL_ONE_MINUS_SRC_ALPHA );
 		::glColor4f( 1.0f, 1.0f, 1.0f, 0.5f );
 	}
 
-	// お気に入りでもハイライトでもない航路を描画
+	// Drawing a route that is neither favorite nor highlight
 	::glLineWidth( lineWidth );
 	::glColor4f( 1.0f, 1.0f, 1.0f, 0.5f );
 	for ( const GVOShipRoutePtr route : shipRouteList->getList() ) {
 		if ( route->isFavorite() || route->isHilight() ) {
 			continue;
 		}
-		// 最新航路だけを不透明で描画
+		// Drawing only the latest route opaque
 		if ( shipRouteList->getList().back() == route ) {
 			::glLineWidth( lineWidth );
 			::glColor3f( 1.0f, 1.0f, 1.0f );
@@ -377,7 +378,7 @@ void GVORenderer::renderShipRouteList( int width, int height, const GVOShipRoute
 		renderLines( route, (float)width, (float)height );
 	}
 
-	// お気に入り航路を描画
+	// Draw a favorite route
 	::glColor4f( 1.0f, 1.0f, 0.0f, 0.75f );
 	::glEnable( GL_BLEND );
 	for ( const GVOShipRoutePtr route : shipRouteList->getList() ) {
@@ -385,7 +386,7 @@ void GVORenderer::renderShipRouteList( int width, int height, const GVOShipRoute
 			continue;
 		}
 
-		// 最新航路だけを不透明で描画
+		// Drawing only the latest route opaque
 		if ( shipRouteList->getList().back() == route ) {
 			::glDisable( GL_BLEND );
 		}
@@ -396,7 +397,7 @@ void GVORenderer::renderShipRouteList( int width, int height, const GVOShipRoute
 		renderLines( route, (float)width, (float)height );
 	}
 
-	// ハイライト航路を表示
+	// Show highlight route
 	::glEnable( GL_BLEND );
 	::glLineWidth( hilightLineWidth );
 	for ( const GVOShipRoutePtr route : shipRouteList->getList() ) {
@@ -411,7 +412,7 @@ void GVORenderer::renderShipRouteList( int width, int height, const GVOShipRoute
 			::glColor4f( 0.5f, 1.0f, 1.0f, 0.75f );
 		}
 
-		// 最新航路だけを不透明で描画
+		// Drawing only the latest route opaque
 		if ( shipRouteList->getList().back() == route ) {
 			::glDisable( GL_BLEND );
 		}
@@ -425,7 +426,7 @@ void GVORenderer::renderShipRouteList( int width, int height, const GVOShipRoute
 
 void GVORenderer::renderSpeedMeter( double shipVelocity )
 {
-	// THE手抜き文字テクスチャー作成
+	// THE Hand creation texture creation
 
 	HDC hdcMem = ::CreateCompatibleDC( m_hdcPrimary );
 	::SaveDC( hdcMem );
@@ -459,7 +460,7 @@ void GVORenderer::renderLines( const GVOShipRoutePtr shipRoute, float mapWidth, 
 {
 	for ( const GVOShipRoute::Line & line : shipRoute->getLines() ) {
 		if ( line.size() < 2 ) {
-			// 2点未満では線を引けない
+			// Can not draw a line with less than 2 points
 			continue;
 		}
 		::glBegin( GL_LINE_STRIP );
