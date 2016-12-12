@@ -3,5 +3,7 @@
 *.ini
 *.opendb
 GVONavish/.vs/
+GVONavish/archive/
 archive/
 ipch/
+.vs/
