@@ -61,7 +61,7 @@ static void s_onMouseRightButtonUp( HWND, UINT, int16_t, int16_t );
 static void s_onPaint( HWND );
 
 
-// アプリ処理
+// Application processing
 static std::wstring s_getMapFileName();
 static void s_updateFrame(HWND);
 static void s_updateWindowTitle( HWND, POINT, double );
@@ -71,13 +71,13 @@ static void s_popupCoord( HWND, int16_t, int16_t );
 static void s_closeShipRoute();
 
 
-// ローカル変数
-static LPCWSTR const k_appName = L"GVONavish";		// アプリケーション名
-static LPCWSTR const k_version = L"ver 1.3.2.1";	// バージョン番号
-static LPCWSTR const k_copyright = L"copyright(c) 2014 @MandhelingFreak";	// 著作権表示（いちおー）
+// Local variables
+static LPCWSTR const k_appName = L"GVONavish";		// Application Name
+static LPCWSTR const k_version = L"ver 1.3.2.1";	// Version number
+static LPCWSTR const k_copyright = L"copyright(c) 2014 @MandhelingFreak";	// Copyright notice (One time)
 
-static LPCWSTR const k_windowClassName = L"GVONavish";		// メイン ウィンドウ クラス名
-static const LPCWSTR k_configFileName = L"GVONavish.ini";	// 設定ファイル名
+static LPCWSTR const k_windowClassName = L"GVONavish";		// Main window class name
+static const LPCWSTR k_configFileName = L"GVONavish.ini";	// Settings file name
 static LPCWSTR const k_appMutexName = L"Global\\{7554E265-3247-4FCA-BC60-5AA814658351}";
 static HANDLE s_appMutex;
 
@@ -97,13 +97,13 @@ static DWORD s_latestTimeStamp;
 static const DWORD k_surveyCoordLostThreshold = 5000;
 static std::unique_ptr<GVOShipRouteManageView> s_shipRouteManageView;
 
-//一時置き
+//Temporary placement
 static std::unique_ptr<GVOTexture> s_shipTexture;
 
-static UINT s_pollingInterval = 1000;	// 状態監視間隔（1秒）
-static bool s_isDragging = false;		// ドラッグ状態フラグ
-static SIZE s_clientSize;				// クライアント領域の大きさ
-static POINT s_dragOrg;					// ドラッグ原点（移動量算出用）
+static UINT s_pollingInterval = 1000;	// Monitoring update interval (1 second)
+static bool s_isDragging = false;		// Drag state flag
+static SIZE s_clientSize;				// Size of client area
+static POINT s_dragOrg;					// Drag origin (For moving amount calculation)
 
 #ifdef GVO_PERF_CHECK
 typedef std::deque<double> PerfCountList;
@@ -143,12 +143,12 @@ int APIENTRY _tWinMain( _In_ HINSTANCE hInstance,
 
 	MyRegisterClass( hInstance );
 
-	// アプリケーションの初期化を実行します:
+	// 	Perform initialization of the application:
 	if ( !InitInstance( hInstance, nCmdShow ) ) {
 		return 0;
 	}
 
-	// メイン メッセージ ループ:
+	// Main message loop
 	const LRESULT retVal = s_mainLoop();
 
 	try {
@@ -195,7 +195,7 @@ static BOOL InitInstance( HINSTANCE hInstance, int nCmdShow )
 		std::wstring fileName = s_getMapFileName();
 		if ( !s_worldMap.loadFromFile( fileName ) ) {
 			::MessageBox( NULL,
-				L"マップ画像を開けませんでした。",
+				L"Could not open the map image.",
 				k_appName,
 				MB_ICONERROR | MB_SETFOREGROUND | MB_OK );
 			return FALSE;
@@ -205,7 +205,7 @@ static BOOL InitInstance( HINSTANCE hInstance, int nCmdShow )
 
 	HWND hwnd;
 
-	g_hinst = hInstance; // グローバル変数にインスタンス処理を格納します。
+	g_hinst = hInstance; // Store instance processing in global variable.
 
 	DWORD exStyle = 0;
 	if ( s_config.m_keepForeground ) {
@@ -241,7 +241,7 @@ static BOOL InitInstance( HINSTANCE hInstance, int nCmdShow )
 	}
 	catch ( const std::exception& e ) {
 		::OutputDebugStringA( (std::string( "file load error:" ) + e.what() + "\n").c_str() );
-		::MessageBox( NULL, L"航路読込に失敗しました。", k_appName, MB_ICONERROR );
+		::MessageBox( NULL, L"Failed to read path", k_appName, MB_ICONERROR );
 	}
 	s_pollingInterval = s_config.m_pollingInterval;
 	s_gvoGameProcess.setup( s_config );
@@ -274,7 +274,7 @@ static LRESULT s_mainLoop()
 		}
 		std::vector<HANDLE> handles;
 
-		// 監視するハンドルを追加する。
+		// 	Add handles to monitor.
 		if ( s_gvoGameProcess.processHandle() ) {
 			handles.push_back( s_gvoGameProcess.processHandle() );
 		}
@@ -291,11 +291,11 @@ static LRESULT s_mainLoop()
 			continue;
 		}
 
-		// 監視するハンドルに対応する。
+		// Check the handle to be monitored.
 		HANDLE const activeHandle = handles[waitResult];
 
 		if ( activeHandle == s_gvoGameProcess.processHandle() ) {
-			// ゲームプロセスが終了した。
+			// The game process is over.
 			s_gvoGameProcess.clear();
 			continue;
 		}
@@ -334,7 +334,7 @@ LRESULT CALLBACK WndProc( HWND hwnd, UINT message, WPARAM wp, LPARAM lp )
 	case WM_COMMAND:
 		wmId = LOWORD( wp );
 		wmEvent = HIWORD( wp );
-		// 選択されたメニューの解析:
+		// Analysis of the selected menu :
 		switch ( wmId ) {
 		case IDM_ABOUT:
 			::DialogBox( g_hinst, MAKEINTRESOURCE( IDD_ABOUTBOX ), hwnd, aboutDlgProc );
@@ -388,7 +388,7 @@ LRESULT CALLBACK WndProc( HWND hwnd, UINT message, WPARAM wp, LPARAM lp )
 			if ( !s_shipRouteManageView.get() ) {
 				s_shipRouteManageView.reset( new GVOShipRouteManageView() );
 				if ( !s_shipRouteManageView->setup( *s_shipRouteList.get() ) ) {
-					::MessageBox( hwnd, L"なんかえらーです", L"エラー", MB_OK | MB_ICONERROR );
+					::MessageBox( hwnd, L"Something went wrong", L"Error", MB_OK | MB_ICONERROR );
 				}
 			}
 			else {
@@ -524,7 +524,7 @@ static void s_onMouseMove( HWND hwnd, UINT vkey, int16_t x, int16_t y )
 	if ( s_isDragging ) {
 		const int dx = x - s_dragOrg.x;
 		const int dy = y - s_dragOrg.y;
-		const int threshold = 1;	// 感度が良すぎると追従が簡単に切れてしまうので適当に対策
+		const int threshold = 1;	// If the sensitivity is too good, follow-up will easily be cut off, so take appropriate measures
 		if ( s_config.m_traceShipPositionEnabled ) {
 			if ( ::abs( dx ) <= threshold && ::abs( dy ) < threshold ) {
 				return;
@@ -616,13 +616,13 @@ static void s_onPaint( HWND hwnd )
 	}
 
 	std::wstring s;
-	s = std::wstring( L"描画速度:" ) + std::to_wstring( ave ) + L"(ms)\n";
+	s = std::wstring( L"Drawing speed:" ) + std::to_wstring( ave ) + L"(ms)\n";
 	::SetWindowText( hwnd, s.c_str() );
 #endif
 }
 
 
-// マップ画像を選択させる
+// Let me select a map image
 static std::wstring s_getMapFileName()
 {
 	wchar_t dir[MAX_PATH] = { 0 };
@@ -631,10 +631,10 @@ static std::wstring s_getMapFileName()
 
 	wchar_t filePath[MAX_PATH] = { 0 };
 	OPENFILENAME ofn = { sizeof(ofn) };
-	ofn.lpstrTitle = L"マップ画像ファイルを選択してください。";
+	ofn.lpstrTitle = L"Please select a map image file.";
 	ofn.lpstrInitialDir = &dir[0];
-	ofn.lpstrFilter = L"イメージファイル\0L" L"*.bmp;*.jpg;*.jpeg;*.png;*.gif;*.tif;*.tiff" L"\0"
-		L"全てのファイル\0" L"*.*" L"\0\0";
+	ofn.lpstrFilter = L"Image file\0L" L"*.bmp;*.jpg;*.jpeg;*.png;*.gif;*.tif;*.tiff" L"\0"
+		L"All Files\0" L"*.*" L"\0\0";
 	ofn.Flags = OFN_READONLY | OFN_FILEMUSTEXIST;
 	ofn.nMaxFile = _countof( filePath );
 	ofn.lpstrFile = &filePath[0];
@@ -653,7 +653,7 @@ static void s_updateFrame( HWND hwnd )
 		return;
 	}
 
-	// ゲームプロセスのアイコンテクスチャーが未作成ならば作成を試みる
+	// If the icon texture of the game process has not been created, it attempts to create it
 	if ( !s_shipTexture.get() ) {
 		const GVOImage * image = s_gvoGameProcess.shipIconImage();
 		if ( image ) {
@@ -721,7 +721,7 @@ static void s_popupMenu( HWND hwnd, int16_t x, int16_t y )
 	mii.fMask = MIIM_TYPE | MIIM_ID;
 	mii.fType = MFT_STRING;
 
-	// デバッグ用自動航行の切り替え
+	// Switching automatic navigation for debugging
 	mii.wID = IDM_TOGGLE_DEBUG_AUTO_CRUISE;
 	mii.dwTypeData = L"[DEBUG]Enable automatic sailing";
 	::InsertMenuItem( popupMenu, ::GetMenuItemCount( popupMenu ), TRUE, &mii );
@@ -740,7 +740,7 @@ static void s_popupMenu( HWND hwnd, int16_t x, int16_t y )
 	::InsertMenuItem( popupMenu, ::GetMenuItemCount( popupMenu ), TRUE, &mii );
 #endif
 
-	// メニュー表示中はメッセージポンプから抜けられないのでタイマーで更新を監視しておく。
+	// While the menu is displayed, it can not escape from the message pump, so monitor the update with the timer.
 	const UINT_PTR timerID = ::SetTimer( hwnd, 0, s_pollingInterval, NULL );
 	s_updateFrame( hwnd );
 

@@ -1,4 +1,7 @@
 *.exe
 *.db
 *.ini
+*.opendb
 GVONavish/.vs/
+archive/
+ipch/
