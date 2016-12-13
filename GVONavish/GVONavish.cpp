@@ -73,6 +73,7 @@ static void s_closeShipRoute();
 
 // Local variables
 static LPCWSTR const k_appName = L"GVONavish";		// Application Name
+static LPCWSTR const k_translated = L"Translated by the_sameog";
 static LPCWSTR const k_version = L"ver 1.3.2.1";	// Version number
 static LPCWSTR const k_copyright = L"copyright(c) 2014 @MandhelingFreak";	// Copyright notice (One time)
 
@@ -145,7 +146,7 @@ int APIENTRY _tWinMain( _In_ HINSTANCE hInstance,
 
 	// 	Perform initialization of the application:
 	if ( !InitInstance( hInstance, nCmdShow ) ) {
-		return 0;
+		return 0;	
 	}
 
 	// Main message loop
@@ -771,9 +772,11 @@ BOOL CALLBACK aboutDlgProc( HWND hwnd, UINT msg, WPARAM wp, LPARAM lp)
 	case WM_INITDIALOG:
 	{
 		std::wstring versionString = std::wstring(k_appName) + L" " + k_version;
+		std::wstring tlString = std::wstring(k_translated);
 		std::wstring copyRightString = std::wstring( k_copyright );
 
 		::SetDlgItemText( hwnd, IDC_VERSION_LABEL, versionString.c_str() );
+		::SetDlgItemText(hwnd, IDC_VERSION_LABEL2, tlString.c_str());
 		::SetDlgItemText( hwnd, IDC_COPYRIGHT_LABEL, copyRightString.c_str() );
 	}
 		break;

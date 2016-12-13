@@ -13,6 +13,7 @@
 #define IDI_BLANK                               145
 #define IDC_COPYRIGHT_LABEL                     146
 #define IDC_VERSION_LABEL                       147
+#define IDC_VERSION_LABEL2                       148
 #define IDM_DELETE_SHIP_ROUTE                   40000
 #define IDM_ROUTE_MANAGE_OPTION                 40001
 #define IDM_DEBUG_INTERVAL_NORMAL               40002
