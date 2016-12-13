@@ -7,3 +7,6 @@ GVONavish/archive/
 archive/
 ipch/
 .vs/
+*.user
+*.filter
+.vcxproj
