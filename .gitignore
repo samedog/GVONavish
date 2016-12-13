@@ -8,5 +8,5 @@ archive/
 ipch/
 .vs/
 *.user
-*.filter
-.vcxproj
+*.filters
+*.vcxproj

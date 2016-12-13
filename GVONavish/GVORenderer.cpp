@@ -5,7 +5,6 @@
 #include "GVOTexture.h"
 #include "GVOShipRouteList.h"
 #include "GVOShipRoute.h"
-#include "Cities.h"
 
 
 
