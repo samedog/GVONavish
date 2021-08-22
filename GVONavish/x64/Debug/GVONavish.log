@@ -1,0 +1,708 @@
+﻿  GVOGameProcess.cpp
+D:\github_clones\GVONavish\GVONavish\GVONavish.h(22,5): error C2664: 'BOOL PathIsRelativeA(LPCSTR)': el argumento 1 no puede convertirse de 'const _Elem *' a 'LPCSTR'
+          with
+          [
+              _Elem=wchar_t
+          ]
+D:\github_clones\GVONavish\GVONavish\GVONavish.h(22,37): message : Los tipos señalados no están relacionados; la conversión requiere reinterpret_cast, conversión de estilo de C o conversión de estilo de función
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\Shlwapi.h(690,21): message : vea la declaración de 'PathIsRelativeA'
+D:\github_clones\GVONavish\GVONavish\GVONavish.h(24,66): error C2664: 'DWORD GetModuleFileNameA(HMODULE,LPSTR,DWORD)': el argumento 2 no puede convertirse de 'wchar_t [260]' a 'LPSTR'
+D:\github_clones\GVONavish\GVONavish\GVONavish.h(24,48): message : Los tipos señalados no están relacionados; la conversión requiere reinterpret_cast, conversión de estilo de C o conversión de estilo de función
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\libloaderapi.h(226,1): message : vea la declaración de 'GetModuleFileNameA'
+D:\github_clones\GVONavish\GVONavish\GVONavish.h(25,27): error C2664: 'BOOL PathRemoveFileSpecA(LPSTR)': el argumento 1 no puede convertirse de 'wchar_t [260]' a 'LPSTR'
+D:\github_clones\GVONavish\GVONavish\GVONavish.h(25,24): message : Los tipos señalados no están relacionados; la conversión requiere reinterpret_cast, conversión de estilo de C o conversión de estilo de función
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\Shlwapi.h(782,21): message : vea la declaración de 'PathRemoveFileSpecA'
+D:\github_clones\GVONavish\GVONavish\GVONavish.h(26,48): error C2664: 'LPSTR PathCombineA(LPSTR,LPCSTR,LPCSTR)': el argumento 1 no puede convertirse de 'wchar_t [260]' a 'LPSTR'
+D:\github_clones\GVONavish\GVONavish\GVONavish.h(26,17): message : Los tipos señalados no están relacionados; la conversión requiere reinterpret_cast, conversión de estilo de C o conversión de estilo de función
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\Shlwapi.h(547,19): message : vea la declaración de 'PathCombineA'
+D:\github_clones\GVONavish\GVONavish\GVONavish.h(29,39): error C2664: 'LPSTR lstrcpyA(LPSTR,LPCSTR)': el argumento 1 no puede convertirse de 'wchar_t [260]' a 'LPSTR'
+D:\github_clones\GVONavish\GVONavish\GVONavish.h(29,13): message : Los tipos señalados no están relacionados; la conversión requiere reinterpret_cast, conversión de estilo de C o conversión de estilo de función
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winbase.h(2828,1): message : vea la declaración de 'lstrcpyA'
+D:\github_clones\GVONavish\GVONavish\GVOConfig.h(66,1): error C2664: 'BOOL WritePrivateProfileStringA(LPCSTR,LPCSTR,LPCSTR,LPCSTR)': el argumento 1 no puede convertirse de 'LPCWSTR' a 'LPCSTR'
+D:\github_clones\GVONavish\GVONavish\GVOConfig.h(66,32): message : Los tipos señalados no están relacionados; la conversión requiere reinterpret_cast, conversión de estilo de C o conversión de estilo de función
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winbase.h(4701,1): message : vea la declaración de 'WritePrivateProfileStringA'
+D:\github_clones\GVONavish\GVONavish\GVOConfig.h(67,1): error C2664: 'BOOL WritePrivateProfileStringA(LPCSTR,LPCSTR,LPCSTR,LPCSTR)': el argumento 1 no puede convertirse de 'LPCWSTR' a 'LPCSTR'
+D:\github_clones\GVONavish\GVONavish\GVOConfig.h(67,32): message : Los tipos señalados no están relacionados; la conversión requiere reinterpret_cast, conversión de estilo de C o conversión de estilo de función
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winbase.h(4701,1): message : vea la declaración de 'WritePrivateProfileStringA'
+D:\github_clones\GVONavish\GVONavish\GVOConfig.h(68,1): error C2664: 'BOOL WritePrivateProfileStringA(LPCSTR,LPCSTR,LPCSTR,LPCSTR)': el argumento 1 no puede convertirse de 'LPCWSTR' a 'LPCSTR'
+D:\github_clones\GVONavish\GVONavish\GVOConfig.h(68,32): message : Los tipos señalados no están relacionados; la conversión requiere reinterpret_cast, conversión de estilo de C o conversión de estilo de función
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winbase.h(4701,1): message : vea la declaración de 'WritePrivateProfileStringA'
+D:\github_clones\GVONavish\GVONavish\GVOConfig.h(69,1): error C2664: 'BOOL WritePrivateProfileStringA(LPCSTR,LPCSTR,LPCSTR,LPCSTR)': el argumento 1 no puede convertirse de 'LPCWSTR' a 'LPCSTR'
+D:\github_clones\GVONavish\GVONavish\GVOConfig.h(69,32): message : Los tipos señalados no están relacionados; la conversión requiere reinterpret_cast, conversión de estilo de C o conversión de estilo de función
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winbase.h(4701,1): message : vea la declaración de 'WritePrivateProfileStringA'
+D:\github_clones\GVONavish\GVONavish\GVOConfig.h(70,1): error C2664: 'BOOL WritePrivateProfileStringA(LPCSTR,LPCSTR,LPCSTR,LPCSTR)': el argumento 1 no puede convertirse de 'LPCWSTR' a 'LPCSTR'
+D:\github_clones\GVONavish\GVONavish\GVOConfig.h(70,32): message : Los tipos señalados no están relacionados; la conversión requiere reinterpret_cast, conversión de estilo de C o conversión de estilo de función
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winbase.h(4701,1): message : vea la declaración de 'WritePrivateProfileStringA'
+D:\github_clones\GVONavish\GVONavish\GVOConfig.h(73,1): error C2664: 'BOOL WritePrivateProfileStringA(LPCSTR,LPCSTR,LPCSTR,LPCSTR)': el argumento 1 no puede convertirse de 'LPCWSTR' a 'LPCSTR'
+D:\github_clones\GVONavish\GVONavish\GVOConfig.h(73,31): message : Los tipos señalados no están relacionados; la conversión requiere reinterpret_cast, conversión de estilo de C o conversión de estilo de función
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winbase.h(4701,1): message : vea la declaración de 'WritePrivateProfileStringA'
+D:\github_clones\GVONavish\GVONavish\GVOConfig.h(74,1): error C2664: 'BOOL WritePrivateProfileStringA(LPCSTR,LPCSTR,LPCSTR,LPCSTR)': el argumento 1 no puede convertirse de 'LPCWSTR' a 'LPCSTR'
+D:\github_clones\GVONavish\GVONavish\GVOConfig.h(74,31): message : Los tipos señalados no están relacionados; la conversión requiere reinterpret_cast, conversión de estilo de C o conversión de estilo de función
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winbase.h(4701,1): message : vea la declaración de 'WritePrivateProfileStringA'
+D:\github_clones\GVONavish\GVONavish\GVOConfig.h(75,1): error C2664: 'BOOL WritePrivateProfileStringA(LPCSTR,LPCSTR,LPCSTR,LPCSTR)': el argumento 1 no puede convertirse de 'LPCWSTR' a 'LPCSTR'
+D:\github_clones\GVONavish\GVONavish\GVOConfig.h(75,31): message : Los tipos señalados no están relacionados; la conversión requiere reinterpret_cast, conversión de estilo de C o conversión de estilo de función
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winbase.h(4701,1): message : vea la declaración de 'WritePrivateProfileStringA'
+D:\github_clones\GVONavish\GVONavish\GVOConfig.h(76,1): error C2664: 'BOOL WritePrivateProfileStringA(LPCSTR,LPCSTR,LPCSTR,LPCSTR)': el argumento 1 no puede convertirse de 'LPCWSTR' a 'LPCSTR'
+D:\github_clones\GVONavish\GVONavish\GVOConfig.h(76,31): message : Los tipos señalados no están relacionados; la conversión requiere reinterpret_cast, conversión de estilo de C o conversión de estilo de función
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winbase.h(4701,1): message : vea la declaración de 'WritePrivateProfileStringA'
+D:\github_clones\GVONavish\GVONavish\GVOConfig.h(77,1): error C2664: 'BOOL WritePrivateProfileStringA(LPCSTR,LPCSTR,LPCSTR,LPCSTR)': el argumento 1 no puede convertirse de 'LPCWSTR' a 'LPCSTR'
+D:\github_clones\GVONavish\GVONavish\GVOConfig.h(77,32): message : Los tipos señalados no están relacionados; la conversión requiere reinterpret_cast, conversión de estilo de C o conversión de estilo de función
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winbase.h(4701,1): message : vea la declaración de 'WritePrivateProfileStringA'
+D:\github_clones\GVONavish\GVONavish\GVOConfig.h(80,1): error C2664: 'BOOL WritePrivateProfileStringA(LPCSTR,LPCSTR,LPCSTR,LPCSTR)': el argumento 1 no puede convertirse de 'LPCWSTR' a 'LPCSTR'
+D:\github_clones\GVONavish\GVONavish\GVOConfig.h(80,32): message : Los tipos señalados no están relacionados; la conversión requiere reinterpret_cast, conversión de estilo de C o conversión de estilo de función
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winbase.h(4701,1): message : vea la declaración de 'WritePrivateProfileStringA'
+D:\github_clones\GVONavish\GVONavish\GVOConfig.h(81,1): error C2664: 'BOOL WritePrivateProfileStringA(LPCSTR,LPCSTR,LPCSTR,LPCSTR)': el argumento 1 no puede convertirse de 'LPCWSTR' a 'LPCSTR'
+D:\github_clones\GVONavish\GVONavish\GVOConfig.h(81,32): message : Los tipos señalados no están relacionados; la conversión requiere reinterpret_cast, conversión de estilo de C o conversión de estilo de función
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winbase.h(4701,1): message : vea la declaración de 'WritePrivateProfileStringA'
+D:\github_clones\GVONavish\GVONavish\GVOConfig.h(85,1): error C2664: 'BOOL WritePrivateProfileStringA(LPCSTR,LPCSTR,LPCSTR,LPCSTR)': el argumento 1 no puede convertirse de 'LPCWSTR' a 'LPCSTR'
+D:\github_clones\GVONavish\GVONavish\GVOConfig.h(85,32): message : Los tipos señalados no están relacionados; la conversión requiere reinterpret_cast, conversión de estilo de C o conversión de estilo de función
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winbase.h(4701,1): message : vea la declaración de 'WritePrivateProfileStringA'
+D:\github_clones\GVONavish\GVONavish\GVOConfig.h(86,1): error C2664: 'BOOL WritePrivateProfileStringA(LPCSTR,LPCSTR,LPCSTR,LPCSTR)': el argumento 1 no puede convertirse de 'LPCWSTR' a 'LPCSTR'
+D:\github_clones\GVONavish\GVONavish\GVOConfig.h(86,32): message : Los tipos señalados no están relacionados; la conversión requiere reinterpret_cast, conversión de estilo de C o conversión de estilo de función
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winbase.h(4701,1): message : vea la declaración de 'WritePrivateProfileStringA'
+D:\github_clones\GVONavish\GVONavish\GVOConfig.h(87,1): error C2664: 'BOOL WritePrivateProfileStringA(LPCSTR,LPCSTR,LPCSTR,LPCSTR)': el argumento 1 no puede convertirse de 'LPCWSTR' a 'LPCSTR'
+D:\github_clones\GVONavish\GVONavish\GVOConfig.h(87,32): message : Los tipos señalados no están relacionados; la conversión requiere reinterpret_cast, conversión de estilo de C o conversión de estilo de función
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winbase.h(4701,1): message : vea la declaración de 'WritePrivateProfileStringA'
+D:\github_clones\GVONavish\GVONavish\GVOConfig.h(88,1): error C2664: 'BOOL WritePrivateProfileStringA(LPCSTR,LPCSTR,LPCSTR,LPCSTR)': el argumento 1 no puede convertirse de 'LPCWSTR' a 'LPCSTR'
+D:\github_clones\GVONavish\GVONavish\GVOConfig.h(88,32): message : Los tipos señalados no están relacionados; la conversión requiere reinterpret_cast, conversión de estilo de C o conversión de estilo de función
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winbase.h(4701,1): message : vea la declaración de 'WritePrivateProfileStringA'
+D:\github_clones\GVONavish\GVONavish\GVOConfig.h(92,1): error C2664: 'BOOL WritePrivateProfileStringA(LPCSTR,LPCSTR,LPCSTR,LPCSTR)': el argumento 4 no puede convertirse de 'LPCWSTR' a 'LPCSTR'
+D:\github_clones\GVONavish\GVONavish\GVOConfig.h(92,49): message : Los tipos señalados no están relacionados; la conversión requiere reinterpret_cast, conversión de estilo de C o conversión de estilo de función
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winbase.h(4701,1): message : vea la declaración de 'WritePrivateProfileStringA'
+D:\github_clones\GVONavish\GVONavish\GVOConfig.h(103,1): error C2664: 'UINT GetPrivateProfileIntA(LPCSTR,LPCSTR,INT,LPCSTR)': el argumento 1 no puede convertirse de 'LPCWSTR' a 'LPCSTR'
+D:\github_clones\GVONavish\GVONavish\GVOConfig.h(103,47): message : Los tipos señalados no están relacionados; la conversión requiere reinterpret_cast, conversión de estilo de C o conversión de estilo de función
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winbase.h(4597,1): message : vea la declaración de 'GetPrivateProfileIntA'
+D:\github_clones\GVONavish\GVONavish\GVOConfig.h(104,1): error C2664: 'UINT GetPrivateProfileIntA(LPCSTR,LPCSTR,INT,LPCSTR)': el argumento 1 no puede convertirse de 'LPCWSTR' a 'LPCSTR'
+D:\github_clones\GVONavish\GVONavish\GVOConfig.h(104,56): message : Los tipos señalados no están relacionados; la conversión requiere reinterpret_cast, conversión de estilo de C o conversión de estilo de función
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winbase.h(4597,1): message : vea la declaración de 'GetPrivateProfileIntA'
+D:\github_clones\GVONavish\GVONavish\GVOConfig.h(105,1): error C2664: 'UINT GetPrivateProfileIntA(LPCSTR,LPCSTR,INT,LPCSTR)': el argumento 1 no puede convertirse de 'LPCWSTR' a 'LPCSTR'
+D:\github_clones\GVONavish\GVONavish\GVOConfig.h(105,49): message : Los tipos señalados no están relacionados; la conversión requiere reinterpret_cast, conversión de estilo de C o conversión de estilo de función
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winbase.h(4597,1): message : vea la declaración de 'GetPrivateProfileIntA'
+D:\github_clones\GVONavish\GVONavish\GVOConfig.h(106,1): error C2664: 'UINT GetPrivateProfileIntA(LPCSTR,LPCSTR,INT,LPCSTR)': el argumento 1 no puede convertirse de 'LPCWSTR' a 'LPCSTR'
+D:\github_clones\GVONavish\GVONavish\GVOConfig.h(106,53): message : Los tipos señalados no están relacionados; la conversión requiere reinterpret_cast, conversión de estilo de C o conversión de estilo de función
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winbase.h(4597,1): message : vea la declaración de 'GetPrivateProfileIntA'
+D:\github_clones\GVONavish\GVONavish\GVOConfig.h(110,1): error C2664: 'UINT GetPrivateProfileIntA(LPCSTR,LPCSTR,INT,LPCSTR)': el argumento 1 no puede convertirse de 'LPCWSTR' a 'LPCSTR'
+D:\github_clones\GVONavish\GVONavish\GVOConfig.h(110,42): message : Los tipos señalados no están relacionados; la conversión requiere reinterpret_cast, conversión de estilo de C o conversión de estilo de función
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winbase.h(4597,1): message : vea la declaración de 'GetPrivateProfileIntA'
+D:\github_clones\GVONavish\GVONavish\GVOConfig.h(111,1): error C2664: 'UINT GetPrivateProfileIntA(LPCSTR,LPCSTR,INT,LPCSTR)': el argumento 1 no puede convertirse de 'LPCWSTR' a 'LPCSTR'
+D:\github_clones\GVONavish\GVONavish\GVOConfig.h(111,42): message : Los tipos señalados no están relacionados; la conversión requiere reinterpret_cast, conversión de estilo de C o conversión de estilo de función
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winbase.h(4597,1): message : vea la declaración de 'GetPrivateProfileIntA'
+D:\github_clones\GVONavish\GVONavish\GVOConfig.h(112,1): error C2664: 'UINT GetPrivateProfileIntA(LPCSTR,LPCSTR,INT,LPCSTR)': el argumento 1 no puede convertirse de 'LPCWSTR' a 'LPCSTR'
+D:\github_clones\GVONavish\GVONavish\GVOConfig.h(112,44): message : Los tipos señalados no están relacionados; la conversión requiere reinterpret_cast, conversión de estilo de C o conversión de estilo de función
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winbase.h(4597,1): message : vea la declaración de 'GetPrivateProfileIntA'
+D:\github_clones\GVONavish\GVONavish\GVOConfig.h(113,1): error C2664: 'UINT GetPrivateProfileIntA(LPCSTR,LPCSTR,INT,LPCSTR)': el argumento 1 no puede convertirse de 'LPCWSTR' a 'LPCSTR'
+D:\github_clones\GVONavish\GVONavish\GVOConfig.h(113,44): message : Los tipos señalados no están relacionados; la conversión requiere reinterpret_cast, conversión de estilo de C o conversión de estilo de función
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winbase.h(4597,1): message : vea la declaración de 'GetPrivateProfileIntA'
+D:\github_clones\GVONavish\GVONavish\GVOConfig.h(114,1): error C2664: 'UINT GetPrivateProfileIntA(LPCSTR,LPCSTR,INT,LPCSTR)': el argumento 1 no puede convertirse de 'LPCWSTR' a 'LPCSTR'
+D:\github_clones\GVONavish\GVONavish\GVOConfig.h(114,46): message : Los tipos señalados no están relacionados; la conversión requiere reinterpret_cast, conversión de estilo de C o conversión de estilo de función
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winbase.h(4597,1): message : vea la declaración de 'GetPrivateProfileIntA'
+D:\github_clones\GVONavish\GVONavish\GVOConfig.h(117,1): error C2664: 'UINT GetPrivateProfileIntA(LPCSTR,LPCSTR,INT,LPCSTR)': el argumento 1 no puede convertirse de 'LPCWSTR' a 'LPCSTR'
+D:\github_clones\GVONavish\GVONavish\GVOConfig.h(117,52): message : Los tipos señalados no están relacionados; la conversión requiere reinterpret_cast, conversión de estilo de C o conversión de estilo de función
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winbase.h(4597,1): message : vea la declaración de 'GetPrivateProfileIntA'
+D:\github_clones\GVONavish\GVONavish\GVOConfig.h(118,1): error C2664: 'UINT GetPrivateProfileIntA(LPCSTR,LPCSTR,INT,LPCSTR)': el argumento 1 no puede convertirse de 'LPCWSTR' a 'LPCSTR'
+D:\github_clones\GVONavish\GVONavish\GVOConfig.h(118,52): message : Los tipos señalados no están relacionados; la conversión requiere reinterpret_cast, conversión de estilo de C o conversión de estilo de función
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winbase.h(4597,1): message : vea la declaración de 'GetPrivateProfileIntA'
+D:\github_clones\GVONavish\GVONavish\GVOConfig.h(122,1): error C2664: 'UINT GetPrivateProfileIntA(LPCSTR,LPCSTR,INT,LPCSTR)': el argumento 1 no puede convertirse de 'LPCWSTR' a 'LPCSTR'
+D:\github_clones\GVONavish\GVONavish\GVOConfig.h(122,54): message : Los tipos señalados no están relacionados; la conversión requiere reinterpret_cast, conversión de estilo de C o conversión de estilo de función
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winbase.h(4597,1): message : vea la declaración de 'GetPrivateProfileIntA'
+D:\github_clones\GVONavish\GVONavish\GVOConfig.h(123,1): error C2664: 'DWORD GetPrivateProfileStringA(LPCSTR,LPCSTR,LPCSTR,LPSTR,DWORD,LPCSTR)': el argumento 1 no puede convertirse de 'LPCWSTR' a 'LPCSTR'
+D:\github_clones\GVONavish\GVONavish\GVOConfig.h(123,30): message : Los tipos señalados no están relacionados; la conversión requiere reinterpret_cast, conversión de estilo de C o conversión de estilo de función
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winbase.h(4645,1): message : vea la declaración de 'GetPrivateProfileStringA'
+D:\github_clones\GVONavish\GVONavish\GVOConfig.h(125,1): error C2664: 'DWORD GetPrivateProfileStringA(LPCSTR,LPCSTR,LPCSTR,LPSTR,DWORD,LPCSTR)': el argumento 1 no puede convertirse de 'LPCWSTR' a 'LPCSTR'
+D:\github_clones\GVONavish\GVONavish\GVOConfig.h(125,30): message : Los tipos señalados no están relacionados; la conversión requiere reinterpret_cast, conversión de estilo de C o conversión de estilo de función
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winbase.h(4645,1): message : vea la declaración de 'GetPrivateProfileStringA'
+D:\github_clones\GVONavish\GVONavish\GVOConfig.h(127,1): error C2664: 'UINT GetPrivateProfileIntA(LPCSTR,LPCSTR,INT,LPCSTR)': el argumento 1 no puede convertirse de 'LPCWSTR' a 'LPCSTR'
+D:\github_clones\GVONavish\GVONavish\GVOConfig.h(127,59): message : Los tipos señalados no están relacionados; la conversión requiere reinterpret_cast, conversión de estilo de C o conversión de estilo de función
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winbase.h(4597,1): message : vea la declaración de 'GetPrivateProfileIntA'
+D:\github_clones\GVONavish\GVONavish\GVOGameProcess.cpp(115,69): error C2664: 'HWND FindWindowA(LPCSTR,LPCSTR)': el argumento 1 no puede convertirse de 'const LPWSTR' a 'LPCSTR'
+D:\github_clones\GVONavish\GVONavish\GVOGameProcess.cpp(115,28): message : Los tipos señalados no están relacionados; la conversión requiere reinterpret_cast, conversión de estilo de C o conversión de estilo de función
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winuser.h(10051,1): message : vea la declaración de 'FindWindowA'
+  GVOImage.cpp
+D:\github_clones\GVONavish\GVONavish\GVOImage.h(105,32): error C2039: "wstring": no es un miembro de "std"
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\deque(24): message : vea la declaración de 'std'
+D:\github_clones\GVONavish\GVONavish\GVOImage.h(105,39): error C4430: falta el especificador de tipo; se presupone int. Nota: C++ no admite default-int
+D:\github_clones\GVONavish\GVONavish\GVOImage.h(105,39): error C2143: error de sintaxis: falta ',' delante de '&'
+D:\github_clones\GVONavish\GVONavish\GVOImage.cpp(127,41): error C2039: "wstring": no es un miembro de "std"
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\deque(24): message : vea la declaración de 'std'
+D:\github_clones\GVONavish\GVONavish\GVOImage.cpp(127,48): error C4430: falta el especificador de tipo; se presupone int. Nota: C++ no admite default-int
+D:\github_clones\GVONavish\GVONavish\GVOImage.cpp(127,48): error C2143: error de sintaxis: falta ',' delante de '&'
+D:\github_clones\GVONavish\GVONavish\GVOImage.cpp(133,42): error C2065: 'fileName': identificador no declarado
+  GVONavish.cpp
+D:\github_clones\GVONavish\GVONavish\GVONavish.h(22,5): error C2664: 'BOOL PathIsRelativeA(LPCSTR)': el argumento 1 no puede convertirse de 'const _Elem *' a 'LPCSTR'
+          with
+          [
+              _Elem=wchar_t
+          ]
+D:\github_clones\GVONavish\GVONavish\GVONavish.h(22,37): message : Los tipos señalados no están relacionados; la conversión requiere reinterpret_cast, conversión de estilo de C o conversión de estilo de función
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\Shlwapi.h(690,21): message : vea la declaración de 'PathIsRelativeA'
+D:\github_clones\GVONavish\GVONavish\GVONavish.h(24,66): error C2664: 'DWORD GetModuleFileNameA(HMODULE,LPSTR,DWORD)': el argumento 2 no puede convertirse de 'wchar_t [260]' a 'LPSTR'
+D:\github_clones\GVONavish\GVONavish\GVONavish.h(24,48): message : Los tipos señalados no están relacionados; la conversión requiere reinterpret_cast, conversión de estilo de C o conversión de estilo de función
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\libloaderapi.h(226,1): message : vea la declaración de 'GetModuleFileNameA'
+D:\github_clones\GVONavish\GVONavish\GVONavish.h(25,27): error C2664: 'BOOL PathRemoveFileSpecA(LPSTR)': el argumento 1 no puede convertirse de 'wchar_t [260]' a 'LPSTR'
+D:\github_clones\GVONavish\GVONavish\GVONavish.h(25,24): message : Los tipos señalados no están relacionados; la conversión requiere reinterpret_cast, conversión de estilo de C o conversión de estilo de función
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\Shlwapi.h(782,21): message : vea la declaración de 'PathRemoveFileSpecA'
+D:\github_clones\GVONavish\GVONavish\GVONavish.h(26,48): error C2664: 'LPSTR PathCombineA(LPSTR,LPCSTR,LPCSTR)': el argumento 1 no puede convertirse de 'wchar_t [260]' a 'LPSTR'
+D:\github_clones\GVONavish\GVONavish\GVONavish.h(26,17): message : Los tipos señalados no están relacionados; la conversión requiere reinterpret_cast, conversión de estilo de C o conversión de estilo de función
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\Shlwapi.h(547,19): message : vea la declaración de 'PathCombineA'
+D:\github_clones\GVONavish\GVONavish\GVONavish.h(29,39): error C2664: 'LPSTR lstrcpyA(LPSTR,LPCSTR)': el argumento 1 no puede convertirse de 'wchar_t [260]' a 'LPSTR'
+D:\github_clones\GVONavish\GVONavish\GVONavish.h(29,13): message : Los tipos señalados no están relacionados; la conversión requiere reinterpret_cast, conversión de estilo de C o conversión de estilo de función
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winbase.h(2828,1): message : vea la declaración de 'lstrcpyA'
+D:\github_clones\GVONavish\GVONavish\GVOConfig.h(66,1): error C2664: 'BOOL WritePrivateProfileStringA(LPCSTR,LPCSTR,LPCSTR,LPCSTR)': el argumento 1 no puede convertirse de 'LPCWSTR' a 'LPCSTR'
+D:\github_clones\GVONavish\GVONavish\GVOConfig.h(66,32): message : Los tipos señalados no están relacionados; la conversión requiere reinterpret_cast, conversión de estilo de C o conversión de estilo de función
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winbase.h(4701,1): message : vea la declaración de 'WritePrivateProfileStringA'
+D:\github_clones\GVONavish\GVONavish\GVOConfig.h(67,1): error C2664: 'BOOL WritePrivateProfileStringA(LPCSTR,LPCSTR,LPCSTR,LPCSTR)': el argumento 1 no puede convertirse de 'LPCWSTR' a 'LPCSTR'
+D:\github_clones\GVONavish\GVONavish\GVOConfig.h(67,32): message : Los tipos señalados no están relacionados; la conversión requiere reinterpret_cast, conversión de estilo de C o conversión de estilo de función
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winbase.h(4701,1): message : vea la declaración de 'WritePrivateProfileStringA'
+D:\github_clones\GVONavish\GVONavish\GVOConfig.h(68,1): error C2664: 'BOOL WritePrivateProfileStringA(LPCSTR,LPCSTR,LPCSTR,LPCSTR)': el argumento 1 no puede convertirse de 'LPCWSTR' a 'LPCSTR'
+D:\github_clones\GVONavish\GVONavish\GVOConfig.h(68,32): message : Los tipos señalados no están relacionados; la conversión requiere reinterpret_cast, conversión de estilo de C o conversión de estilo de función
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winbase.h(4701,1): message : vea la declaración de 'WritePrivateProfileStringA'
+D:\github_clones\GVONavish\GVONavish\GVOConfig.h(69,1): error C2664: 'BOOL WritePrivateProfileStringA(LPCSTR,LPCSTR,LPCSTR,LPCSTR)': el argumento 1 no puede convertirse de 'LPCWSTR' a 'LPCSTR'
+D:\github_clones\GVONavish\GVONavish\GVOConfig.h(69,32): message : Los tipos señalados no están relacionados; la conversión requiere reinterpret_cast, conversión de estilo de C o conversión de estilo de función
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winbase.h(4701,1): message : vea la declaración de 'WritePrivateProfileStringA'
+D:\github_clones\GVONavish\GVONavish\GVOConfig.h(70,1): error C2664: 'BOOL WritePrivateProfileStringA(LPCSTR,LPCSTR,LPCSTR,LPCSTR)': el argumento 1 no puede convertirse de 'LPCWSTR' a 'LPCSTR'
+D:\github_clones\GVONavish\GVONavish\GVOConfig.h(70,32): message : Los tipos señalados no están relacionados; la conversión requiere reinterpret_cast, conversión de estilo de C o conversión de estilo de función
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winbase.h(4701,1): message : vea la declaración de 'WritePrivateProfileStringA'
+D:\github_clones\GVONavish\GVONavish\GVOConfig.h(73,1): error C2664: 'BOOL WritePrivateProfileStringA(LPCSTR,LPCSTR,LPCSTR,LPCSTR)': el argumento 1 no puede convertirse de 'LPCWSTR' a 'LPCSTR'
+D:\github_clones\GVONavish\GVONavish\GVOConfig.h(73,31): message : Los tipos señalados no están relacionados; la conversión requiere reinterpret_cast, conversión de estilo de C o conversión de estilo de función
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winbase.h(4701,1): message : vea la declaración de 'WritePrivateProfileStringA'
+D:\github_clones\GVONavish\GVONavish\GVOConfig.h(74,1): error C2664: 'BOOL WritePrivateProfileStringA(LPCSTR,LPCSTR,LPCSTR,LPCSTR)': el argumento 1 no puede convertirse de 'LPCWSTR' a 'LPCSTR'
+D:\github_clones\GVONavish\GVONavish\GVOConfig.h(74,31): message : Los tipos señalados no están relacionados; la conversión requiere reinterpret_cast, conversión de estilo de C o conversión de estilo de función
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winbase.h(4701,1): message : vea la declaración de 'WritePrivateProfileStringA'
+D:\github_clones\GVONavish\GVONavish\GVOConfig.h(75,1): error C2664: 'BOOL WritePrivateProfileStringA(LPCSTR,LPCSTR,LPCSTR,LPCSTR)': el argumento 1 no puede convertirse de 'LPCWSTR' a 'LPCSTR'
+D:\github_clones\GVONavish\GVONavish\GVOConfig.h(75,31): message : Los tipos señalados no están relacionados; la conversión requiere reinterpret_cast, conversión de estilo de C o conversión de estilo de función
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winbase.h(4701,1): message : vea la declaración de 'WritePrivateProfileStringA'
+D:\github_clones\GVONavish\GVONavish\GVOConfig.h(76,1): error C2664: 'BOOL WritePrivateProfileStringA(LPCSTR,LPCSTR,LPCSTR,LPCSTR)': el argumento 1 no puede convertirse de 'LPCWSTR' a 'LPCSTR'
+D:\github_clones\GVONavish\GVONavish\GVOConfig.h(76,31): message : Los tipos señalados no están relacionados; la conversión requiere reinterpret_cast, conversión de estilo de C o conversión de estilo de función
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winbase.h(4701,1): message : vea la declaración de 'WritePrivateProfileStringA'
+D:\github_clones\GVONavish\GVONavish\GVOConfig.h(77,1): error C2664: 'BOOL WritePrivateProfileStringA(LPCSTR,LPCSTR,LPCSTR,LPCSTR)': el argumento 1 no puede convertirse de 'LPCWSTR' a 'LPCSTR'
+D:\github_clones\GVONavish\GVONavish\GVOConfig.h(77,32): message : Los tipos señalados no están relacionados; la conversión requiere reinterpret_cast, conversión de estilo de C o conversión de estilo de función
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winbase.h(4701,1): message : vea la declaración de 'WritePrivateProfileStringA'
+D:\github_clones\GVONavish\GVONavish\GVOConfig.h(80,1): error C2664: 'BOOL WritePrivateProfileStringA(LPCSTR,LPCSTR,LPCSTR,LPCSTR)': el argumento 1 no puede convertirse de 'LPCWSTR' a 'LPCSTR'
+D:\github_clones\GVONavish\GVONavish\GVOConfig.h(80,32): message : Los tipos señalados no están relacionados; la conversión requiere reinterpret_cast, conversión de estilo de C o conversión de estilo de función
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winbase.h(4701,1): message : vea la declaración de 'WritePrivateProfileStringA'
+D:\github_clones\GVONavish\GVONavish\GVOConfig.h(81,1): error C2664: 'BOOL WritePrivateProfileStringA(LPCSTR,LPCSTR,LPCSTR,LPCSTR)': el argumento 1 no puede convertirse de 'LPCWSTR' a 'LPCSTR'
+D:\github_clones\GVONavish\GVONavish\GVOConfig.h(81,32): message : Los tipos señalados no están relacionados; la conversión requiere reinterpret_cast, conversión de estilo de C o conversión de estilo de función
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winbase.h(4701,1): message : vea la declaración de 'WritePrivateProfileStringA'
+D:\github_clones\GVONavish\GVONavish\GVOConfig.h(85,1): error C2664: 'BOOL WritePrivateProfileStringA(LPCSTR,LPCSTR,LPCSTR,LPCSTR)': el argumento 1 no puede convertirse de 'LPCWSTR' a 'LPCSTR'
+D:\github_clones\GVONavish\GVONavish\GVOConfig.h(85,32): message : Los tipos señalados no están relacionados; la conversión requiere reinterpret_cast, conversión de estilo de C o conversión de estilo de función
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winbase.h(4701,1): message : vea la declaración de 'WritePrivateProfileStringA'
+D:\github_clones\GVONavish\GVONavish\GVOConfig.h(86,1): error C2664: 'BOOL WritePrivateProfileStringA(LPCSTR,LPCSTR,LPCSTR,LPCSTR)': el argumento 1 no puede convertirse de 'LPCWSTR' a 'LPCSTR'
+D:\github_clones\GVONavish\GVONavish\GVOConfig.h(86,32): message : Los tipos señalados no están relacionados; la conversión requiere reinterpret_cast, conversión de estilo de C o conversión de estilo de función
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winbase.h(4701,1): message : vea la declaración de 'WritePrivateProfileStringA'
+D:\github_clones\GVONavish\GVONavish\GVOConfig.h(87,1): error C2664: 'BOOL WritePrivateProfileStringA(LPCSTR,LPCSTR,LPCSTR,LPCSTR)': el argumento 1 no puede convertirse de 'LPCWSTR' a 'LPCSTR'
+D:\github_clones\GVONavish\GVONavish\GVOConfig.h(87,32): message : Los tipos señalados no están relacionados; la conversión requiere reinterpret_cast, conversión de estilo de C o conversión de estilo de función
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winbase.h(4701,1): message : vea la declaración de 'WritePrivateProfileStringA'
+D:\github_clones\GVONavish\GVONavish\GVOConfig.h(88,1): error C2664: 'BOOL WritePrivateProfileStringA(LPCSTR,LPCSTR,LPCSTR,LPCSTR)': el argumento 1 no puede convertirse de 'LPCWSTR' a 'LPCSTR'
+D:\github_clones\GVONavish\GVONavish\GVOConfig.h(88,32): message : Los tipos señalados no están relacionados; la conversión requiere reinterpret_cast, conversión de estilo de C o conversión de estilo de función
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winbase.h(4701,1): message : vea la declaración de 'WritePrivateProfileStringA'
+D:\github_clones\GVONavish\GVONavish\GVOConfig.h(92,1): error C2664: 'BOOL WritePrivateProfileStringA(LPCSTR,LPCSTR,LPCSTR,LPCSTR)': el argumento 4 no puede convertirse de 'LPCWSTR' a 'LPCSTR'
+D:\github_clones\GVONavish\GVONavish\GVOConfig.h(92,49): message : Los tipos señalados no están relacionados; la conversión requiere reinterpret_cast, conversión de estilo de C o conversión de estilo de función
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winbase.h(4701,1): message : vea la declaración de 'WritePrivateProfileStringA'
+D:\github_clones\GVONavish\GVONavish\GVOConfig.h(103,1): error C2664: 'UINT GetPrivateProfileIntA(LPCSTR,LPCSTR,INT,LPCSTR)': el argumento 1 no puede convertirse de 'LPCWSTR' a 'LPCSTR'
+D:\github_clones\GVONavish\GVONavish\GVOConfig.h(103,47): message : Los tipos señalados no están relacionados; la conversión requiere reinterpret_cast, conversión de estilo de C o conversión de estilo de función
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winbase.h(4597,1): message : vea la declaración de 'GetPrivateProfileIntA'
+D:\github_clones\GVONavish\GVONavish\GVOConfig.h(104,1): error C2664: 'UINT GetPrivateProfileIntA(LPCSTR,LPCSTR,INT,LPCSTR)': el argumento 1 no puede convertirse de 'LPCWSTR' a 'LPCSTR'
+D:\github_clones\GVONavish\GVONavish\GVOConfig.h(104,56): message : Los tipos señalados no están relacionados; la conversión requiere reinterpret_cast, conversión de estilo de C o conversión de estilo de función
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winbase.h(4597,1): message : vea la declaración de 'GetPrivateProfileIntA'
+D:\github_clones\GVONavish\GVONavish\GVOConfig.h(105,1): error C2664: 'UINT GetPrivateProfileIntA(LPCSTR,LPCSTR,INT,LPCSTR)': el argumento 1 no puede convertirse de 'LPCWSTR' a 'LPCSTR'
+D:\github_clones\GVONavish\GVONavish\GVOConfig.h(105,49): message : Los tipos señalados no están relacionados; la conversión requiere reinterpret_cast, conversión de estilo de C o conversión de estilo de función
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winbase.h(4597,1): message : vea la declaración de 'GetPrivateProfileIntA'
+D:\github_clones\GVONavish\GVONavish\GVOConfig.h(106,1): error C2664: 'UINT GetPrivateProfileIntA(LPCSTR,LPCSTR,INT,LPCSTR)': el argumento 1 no puede convertirse de 'LPCWSTR' a 'LPCSTR'
+D:\github_clones\GVONavish\GVONavish\GVOConfig.h(106,53): message : Los tipos señalados no están relacionados; la conversión requiere reinterpret_cast, conversión de estilo de C o conversión de estilo de función
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winbase.h(4597,1): message : vea la declaración de 'GetPrivateProfileIntA'
+D:\github_clones\GVONavish\GVONavish\GVOConfig.h(110,1): error C2664: 'UINT GetPrivateProfileIntA(LPCSTR,LPCSTR,INT,LPCSTR)': el argumento 1 no puede convertirse de 'LPCWSTR' a 'LPCSTR'
+D:\github_clones\GVONavish\GVONavish\GVOConfig.h(110,42): message : Los tipos señalados no están relacionados; la conversión requiere reinterpret_cast, conversión de estilo de C o conversión de estilo de función
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winbase.h(4597,1): message : vea la declaración de 'GetPrivateProfileIntA'
+D:\github_clones\GVONavish\GVONavish\GVOConfig.h(111,1): error C2664: 'UINT GetPrivateProfileIntA(LPCSTR,LPCSTR,INT,LPCSTR)': el argumento 1 no puede convertirse de 'LPCWSTR' a 'LPCSTR'
+D:\github_clones\GVONavish\GVONavish\GVOConfig.h(111,42): message : Los tipos señalados no están relacionados; la conversión requiere reinterpret_cast, conversión de estilo de C o conversión de estilo de función
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winbase.h(4597,1): message : vea la declaración de 'GetPrivateProfileIntA'
+D:\github_clones\GVONavish\GVONavish\GVOConfig.h(112,1): error C2664: 'UINT GetPrivateProfileIntA(LPCSTR,LPCSTR,INT,LPCSTR)': el argumento 1 no puede convertirse de 'LPCWSTR' a 'LPCSTR'
+D:\github_clones\GVONavish\GVONavish\GVOConfig.h(112,44): message : Los tipos señalados no están relacionados; la conversión requiere reinterpret_cast, conversión de estilo de C o conversión de estilo de función
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winbase.h(4597,1): message : vea la declaración de 'GetPrivateProfileIntA'
+D:\github_clones\GVONavish\GVONavish\GVOConfig.h(113,1): error C2664: 'UINT GetPrivateProfileIntA(LPCSTR,LPCSTR,INT,LPCSTR)': el argumento 1 no puede convertirse de 'LPCWSTR' a 'LPCSTR'
+D:\github_clones\GVONavish\GVONavish\GVOConfig.h(113,44): message : Los tipos señalados no están relacionados; la conversión requiere reinterpret_cast, conversión de estilo de C o conversión de estilo de función
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winbase.h(4597,1): message : vea la declaración de 'GetPrivateProfileIntA'
+D:\github_clones\GVONavish\GVONavish\GVOConfig.h(114,1): error C2664: 'UINT GetPrivateProfileIntA(LPCSTR,LPCSTR,INT,LPCSTR)': el argumento 1 no puede convertirse de 'LPCWSTR' a 'LPCSTR'
+D:\github_clones\GVONavish\GVONavish\GVOConfig.h(114,46): message : Los tipos señalados no están relacionados; la conversión requiere reinterpret_cast, conversión de estilo de C o conversión de estilo de función
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winbase.h(4597,1): message : vea la declaración de 'GetPrivateProfileIntA'
+D:\github_clones\GVONavish\GVONavish\GVOConfig.h(117,1): error C2664: 'UINT GetPrivateProfileIntA(LPCSTR,LPCSTR,INT,LPCSTR)': el argumento 1 no puede convertirse de 'LPCWSTR' a 'LPCSTR'
+D:\github_clones\GVONavish\GVONavish\GVOConfig.h(117,52): message : Los tipos señalados no están relacionados; la conversión requiere reinterpret_cast, conversión de estilo de C o conversión de estilo de función
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winbase.h(4597,1): message : vea la declaración de 'GetPrivateProfileIntA'
+D:\github_clones\GVONavish\GVONavish\GVOConfig.h(118,1): error C2664: 'UINT GetPrivateProfileIntA(LPCSTR,LPCSTR,INT,LPCSTR)': el argumento 1 no puede convertirse de 'LPCWSTR' a 'LPCSTR'
+D:\github_clones\GVONavish\GVONavish\GVOConfig.h(118,52): message : Los tipos señalados no están relacionados; la conversión requiere reinterpret_cast, conversión de estilo de C o conversión de estilo de función
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winbase.h(4597,1): message : vea la declaración de 'GetPrivateProfileIntA'
+D:\github_clones\GVONavish\GVONavish\GVOConfig.h(122,1): error C2664: 'UINT GetPrivateProfileIntA(LPCSTR,LPCSTR,INT,LPCSTR)': el argumento 1 no puede convertirse de 'LPCWSTR' a 'LPCSTR'
+D:\github_clones\GVONavish\GVONavish\GVOConfig.h(122,54): message : Los tipos señalados no están relacionados; la conversión requiere reinterpret_cast, conversión de estilo de C o conversión de estilo de función
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winbase.h(4597,1): message : vea la declaración de 'GetPrivateProfileIntA'
+D:\github_clones\GVONavish\GVONavish\GVOConfig.h(123,1): error C2664: 'DWORD GetPrivateProfileStringA(LPCSTR,LPCSTR,LPCSTR,LPSTR,DWORD,LPCSTR)': el argumento 1 no puede convertirse de 'LPCWSTR' a 'LPCSTR'
+D:\github_clones\GVONavish\GVONavish\GVOConfig.h(123,30): message : Los tipos señalados no están relacionados; la conversión requiere reinterpret_cast, conversión de estilo de C o conversión de estilo de función
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winbase.h(4645,1): message : vea la declaración de 'GetPrivateProfileStringA'
+D:\github_clones\GVONavish\GVONavish\GVOConfig.h(125,1): error C2664: 'DWORD GetPrivateProfileStringA(LPCSTR,LPCSTR,LPCSTR,LPSTR,DWORD,LPCSTR)': el argumento 1 no puede convertirse de 'LPCWSTR' a 'LPCSTR'
+D:\github_clones\GVONavish\GVONavish\GVOConfig.h(125,30): message : Los tipos señalados no están relacionados; la conversión requiere reinterpret_cast, conversión de estilo de C o conversión de estilo de función
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winbase.h(4645,1): message : vea la declaración de 'GetPrivateProfileStringA'
+D:\github_clones\GVONavish\GVONavish\GVOConfig.h(127,1): error C2664: 'UINT GetPrivateProfileIntA(LPCSTR,LPCSTR,INT,LPCSTR)': el argumento 1 no puede convertirse de 'LPCWSTR' a 'LPCSTR'
+D:\github_clones\GVONavish\GVONavish\GVOConfig.h(127,59): message : Los tipos señalados no están relacionados; la conversión requiere reinterpret_cast, conversión de estilo de C o conversión de estilo de función
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winbase.h(4597,1): message : vea la declaración de 'GetPrivateProfileIntA'
+D:\github_clones\GVONavish\GVONavish\GVONavish.cpp(127,57): error C2664: 'HANDLE CreateMutexA(LPSECURITY_ATTRIBUTES,BOOL,LPCSTR)': el argumento 3 no puede convertirse de 'const LPCWSTR' a 'LPCSTR'
+D:\github_clones\GVONavish\GVONavish\GVONavish.cpp(127,42): message : Los tipos señalados no están relacionados; la conversión requiere reinterpret_cast, conversión de estilo de C o conversión de estilo de función
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\synchapi.h(422,1): message : vea la declaración de 'CreateMutexA'
+D:\github_clones\GVONavish\GVONavish\GVONavish.cpp(129,53): error C2664: 'HWND FindWindowA(LPCSTR,LPCSTR)': el argumento 1 no puede convertirse de 'const LPCWSTR' a 'LPCSTR'
+D:\github_clones\GVONavish\GVONavish\GVONavish.cpp(129,29): message : Los tipos señalados no están relacionados; la conversión requiere reinterpret_cast, conversión de estilo de C o conversión de estilo de función
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winuser.h(10051,1): message : vea la declaración de 'FindWindowA'
+D:\github_clones\GVONavish\GVONavish\GVONavish.cpp(164,76): error C2664: 'int MessageBoxA(HWND,LPCSTR,LPCSTR,UINT)': el argumento 2 no puede convertirse de 'const wchar_t [25]' a 'LPCSTR'
+D:\github_clones\GVONavish\GVONavish\GVONavish.cpp(164,23): message : Los tipos señalados no están relacionados; la conversión requiere reinterpret_cast, conversión de estilo de C o conversión de estilo de función
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winuser.h(9153,1): message : vea la declaración de 'MessageBoxA'
+D:\github_clones\GVONavish\GVONavish\GVONavish.cpp(187,40): error C2440: '=': no se puede realizar la conversión de 'const LPCWSTR' a 'LPCSTR'
+D:\github_clones\GVONavish\GVONavish\GVONavish.cpp(187,23): message : Los tipos señalados no están relacionados; la conversión requiere reinterpret_cast, conversión de estilo de C o conversión de estilo de función
+D:\github_clones\GVONavish\GVONavish\GVONavish.cpp(198,6): error C2664: 'int MessageBoxA(HWND,LPCSTR,LPCSTR,UINT)': el argumento 2 no puede convertirse de 'const wchar_t [30]' a 'LPCSTR'
+D:\github_clones\GVONavish\GVONavish\GVONavish.cpp(199,5): message : Los tipos señalados no están relacionados; la conversión requiere reinterpret_cast, conversión de estilo de C o conversión de estilo de función
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winuser.h(9153,1): message : vea la declaración de 'MessageBoxA'
+D:\github_clones\GVONavish\GVONavish\GVONavish.cpp(219,9): error C2664: 'HWND CreateWindowExA(DWORD,LPCSTR,LPCSTR,DWORD,int,int,int,int,HWND,HMENU,HINSTANCE,LPVOID)': el argumento 2 no puede convertirse de 'const LPCWSTR' a 'LPCSTR'
+D:\github_clones\GVONavish\GVONavish\GVONavish.cpp(219,34): message : Los tipos señalados no están relacionados; la conversión requiere reinterpret_cast, conversión de estilo de C o conversión de estilo de función
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winuser.h(4416,1): message : vea la declaración de 'CreateWindowExA'
+D:\github_clones\GVONavish\GVONavish\GVONavish.cpp(245,71): error C2664: 'int MessageBoxA(HWND,LPCSTR,LPCSTR,UINT)': el argumento 2 no puede convertirse de 'const wchar_t [20]' a 'LPCSTR'
+D:\github_clones\GVONavish\GVONavish\GVONavish.cpp(245,23): message : Los tipos señalados no están relacionados; la conversión requiere reinterpret_cast, conversión de estilo de C o conversión de estilo de función
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winuser.h(9153,1): message : vea la declaración de 'MessageBoxA'
+D:\github_clones\GVONavish\GVONavish\GVONavish.cpp(341,6): error C2664: 'INT_PTR DialogBoxParamA(HINSTANCE,LPCSTR,HWND,DLGPROC,LPARAM)': el argumento 4 no puede convertirse de 'BOOL (__cdecl *)(HWND,UINT,WPARAM,LPARAM)' a 'DLGPROC'
+D:\github_clones\GVONavish\GVONavish\GVONavish.cpp(341,6): message : Ninguna de las funciones con este nombre en el ámbito coincide con el tipo de destino
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winuser.h(5056,1): message : vea la declaración de 'DialogBoxParamA'
+D:\github_clones\GVONavish\GVONavish\GVONavish.cpp(392,82): error C2664: 'int MessageBoxA(HWND,LPCSTR,LPCSTR,UINT)': el argumento 2 no puede convertirse de 'const wchar_t [21]' a 'LPCSTR'
+D:\github_clones\GVONavish\GVONavish\GVONavish.cpp(392,26): message : Los tipos señalados no están relacionados; la conversión requiere reinterpret_cast, conversión de estilo de C o conversión de estilo de función
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winuser.h(9153,1): message : vea la declaración de 'MessageBoxA'
+D:\github_clones\GVONavish\GVONavish\GVONavish.cpp(630,53): error C2664: 'DWORD GetModuleFileNameA(HMODULE,LPSTR,DWORD)': el argumento 2 no puede convertirse de 'wchar_t [260]' a 'LPSTR'
+D:\github_clones\GVONavish\GVONavish\GVONavish.cpp(630,32): message : Los tipos señalados no están relacionados; la conversión requiere reinterpret_cast, conversión de estilo de C o conversión de estilo de función
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\libloaderapi.h(226,1): message : vea la declaración de 'GetModuleFileNameA'
+D:\github_clones\GVONavish\GVONavish\GVONavish.cpp(631,28): error C2664: 'BOOL PathRemoveFileSpecA(LPSTR)': el argumento 1 no puede convertirse de 'wchar_t [260]' a 'LPSTR'
+D:\github_clones\GVONavish\GVONavish\GVONavish.cpp(631,24): message : Los tipos señalados no están relacionados; la conversión requiere reinterpret_cast, conversión de estilo de C o conversión de estilo de función
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\Shlwapi.h(782,21): message : vea la declaración de 'PathRemoveFileSpecA'
+D:\github_clones\GVONavish\GVONavish\GVONavish.cpp(635,53): error C2440: '=': no se puede realizar la conversión de 'const wchar_t [32]' a 'LPCSTR'
+D:\github_clones\GVONavish\GVONavish\GVONavish.cpp(635,19): message : Los tipos señalados no están relacionados; la conversión requiere reinterpret_cast, conversión de estilo de C o conversión de estilo de función
+D:\github_clones\GVONavish\GVONavish\GVONavish.cpp(636,31): error C2440: '=': no se puede realizar la conversión de 'wchar_t *' a 'LPCSTR'
+D:\github_clones\GVONavish\GVONavish\GVONavish.cpp(636,24): message : Los tipos señalados no están relacionados; la conversión requiere reinterpret_cast, conversión de estilo de C o conversión de estilo de función
+D:\github_clones\GVONavish\GVONavish\GVONavish.cpp(637,20): error C2440: '=': no se puede realizar la conversión de 'const wchar_t [72]' a 'LPCSTR'
+D:\github_clones\GVONavish\GVONavish\GVONavish.cpp(637,20): message : Los tipos señalados no están relacionados; la conversión requiere reinterpret_cast, conversión de estilo de C o conversión de estilo de función
+D:\github_clones\GVONavish\GVONavish\GVONavish.cpp(641,30): error C2440: '=': no se puede realizar la conversión de 'wchar_t *' a 'LPSTR'
+D:\github_clones\GVONavish\GVONavish\GVONavish.cpp(641,18): message : Los tipos señalados no están relacionados; la conversión requiere reinterpret_cast, conversión de estilo de C o conversión de estilo de función
+D:\github_clones\GVONavish\GVONavish\GVONavish.cpp(693,33): error C2664: 'BOOL SetWindowTextA(HWND,LPCSTR)': el argumento 2 no puede convertirse de '_Ty *' a 'LPCSTR'
+          with
+          [
+              _Ty=wchar_t
+          ]
+D:\github_clones\GVONavish\GVONavish\GVONavish.cpp(693,25): message : Los tipos señalados no están relacionados; la conversión requiere reinterpret_cast, conversión de estilo de C o conversión de estilo de función
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winuser.h(8904,1): message : vea la declaración de 'SetWindowTextA'
+D:\github_clones\GVONavish\GVONavish\GVONavish.cpp(727,53): error C2440: '=': no se puede realizar la conversión de 'const wchar_t [32]' a 'LPSTR'
+D:\github_clones\GVONavish\GVONavish\GVONavish.cpp(727,19): message : Los tipos señalados no están relacionados; la conversión requiere reinterpret_cast, conversión de estilo de C o conversión de estilo de función
+D:\github_clones\GVONavish\GVONavish\GVONavish.cpp(732,40): error C2440: '=': no se puede realizar la conversión de 'const wchar_t [19]' a 'LPSTR'
+D:\github_clones\GVONavish\GVONavish\GVONavish.cpp(732,19): message : Los tipos señalados no están relacionados; la conversión requiere reinterpret_cast, conversión de estilo de C o conversión de estilo de función
+D:\github_clones\GVONavish\GVONavish\GVONavish.cpp(736,55): error C2440: '=': no se puede realizar la conversión de 'const wchar_t [34]' a 'LPSTR'
+D:\github_clones\GVONavish\GVONavish\GVONavish.cpp(736,19): message : Los tipos señalados no están relacionados; la conversión requiere reinterpret_cast, conversión de estilo de C o conversión de estilo de función
+D:\github_clones\GVONavish\GVONavish\GVONavish.cpp(740,51): error C2440: '=': no se puede realizar la conversión de 'const wchar_t [30]' a 'LPSTR'
+D:\github_clones\GVONavish\GVONavish\GVONavish.cpp(740,19): message : Los tipos señalados no están relacionados; la conversión requiere reinterpret_cast, conversión de estilo de C o conversión de estilo de función
+D:\github_clones\GVONavish\GVONavish\GVONavish.cpp(778,68): error C2664: 'BOOL SetDlgItemTextA(HWND,int,LPCSTR)': el argumento 3 no puede convertirse de 'const _Elem *' a 'LPCSTR'
+          with
+          [
+              _Elem=wchar_t
+          ]
+D:\github_clones\GVONavish\GVONavish\GVONavish.cpp(778,65): message : Los tipos señalados no están relacionados; la conversión requiere reinterpret_cast, conversión de estilo de C o conversión de estilo de función
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winuser.h(5156,1): message : vea la declaración de 'SetDlgItemTextA'
+D:\github_clones\GVONavish\GVONavish\GVONavish.cpp(779,62): error C2664: 'BOOL SetDlgItemTextA(HWND,int,LPCSTR)': el argumento 3 no puede convertirse de 'const _Elem *' a 'LPCSTR'
+          with
+          [
+              _Elem=wchar_t
+          ]
+D:\github_clones\GVONavish\GVONavish\GVONavish.cpp(779,60): message : Los tipos señalados no están relacionados; la conversión requiere reinterpret_cast, conversión de estilo de C o conversión de estilo de función
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winuser.h(5156,1): message : vea la declaración de 'SetDlgItemTextA'
+D:\github_clones\GVONavish\GVONavish\GVONavish.cpp(780,72): error C2664: 'BOOL SetDlgItemTextA(HWND,int,LPCSTR)': el argumento 3 no puede convertirse de 'const _Elem *' a 'LPCSTR'
+          with
+          [
+              _Elem=wchar_t
+          ]
+D:\github_clones\GVONavish\GVONavish\GVONavish.cpp(780,69): message : Los tipos señalados no están relacionados; la conversión requiere reinterpret_cast, conversión de estilo de C o conversión de estilo de función
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winuser.h(5156,1): message : vea la declaración de 'SetDlgItemTextA'
+  GVORenderer.cpp
+D:\github_clones\GVONavish\GVONavish\GVONavish.h(22,5): error C2664: 'BOOL PathIsRelativeA(LPCSTR)': el argumento 1 no puede convertirse de 'const _Elem *' a 'LPCSTR'
+          with
+          [
+              _Elem=wchar_t
+          ]
+D:\github_clones\GVONavish\GVONavish\GVONavish.h(22,37): message : Los tipos señalados no están relacionados; la conversión requiere reinterpret_cast, conversión de estilo de C o conversión de estilo de función
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\Shlwapi.h(690,21): message : vea la declaración de 'PathIsRelativeA'
+D:\github_clones\GVONavish\GVONavish\GVONavish.h(24,66): error C2664: 'DWORD GetModuleFileNameA(HMODULE,LPSTR,DWORD)': el argumento 2 no puede convertirse de 'wchar_t [260]' a 'LPSTR'
+D:\github_clones\GVONavish\GVONavish\GVONavish.h(24,48): message : Los tipos señalados no están relacionados; la conversión requiere reinterpret_cast, conversión de estilo de C o conversión de estilo de función
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\libloaderapi.h(226,1): message : vea la declaración de 'GetModuleFileNameA'
+D:\github_clones\GVONavish\GVONavish\GVONavish.h(25,27): error C2664: 'BOOL PathRemoveFileSpecA(LPSTR)': el argumento 1 no puede convertirse de 'wchar_t [260]' a 'LPSTR'
+D:\github_clones\GVONavish\GVONavish\GVONavish.h(25,24): message : Los tipos señalados no están relacionados; la conversión requiere reinterpret_cast, conversión de estilo de C o conversión de estilo de función
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\Shlwapi.h(782,21): message : vea la declaración de 'PathRemoveFileSpecA'
+D:\github_clones\GVONavish\GVONavish\GVONavish.h(26,48): error C2664: 'LPSTR PathCombineA(LPSTR,LPCSTR,LPCSTR)': el argumento 1 no puede convertirse de 'wchar_t [260]' a 'LPSTR'
+D:\github_clones\GVONavish\GVONavish\GVONavish.h(26,17): message : Los tipos señalados no están relacionados; la conversión requiere reinterpret_cast, conversión de estilo de C o conversión de estilo de función
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\Shlwapi.h(547,19): message : vea la declaración de 'PathCombineA'
+D:\github_clones\GVONavish\GVONavish\GVONavish.h(29,39): error C2664: 'LPSTR lstrcpyA(LPSTR,LPCSTR)': el argumento 1 no puede convertirse de 'wchar_t [260]' a 'LPSTR'
+D:\github_clones\GVONavish\GVONavish\GVONavish.h(29,13): message : Los tipos señalados no están relacionados; la conversión requiere reinterpret_cast, conversión de estilo de C o conversión de estilo de función
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winbase.h(2828,1): message : vea la declaración de 'lstrcpyA'
+D:\github_clones\GVONavish\GVONavish\GVOConfig.h(66,1): error C2664: 'BOOL WritePrivateProfileStringA(LPCSTR,LPCSTR,LPCSTR,LPCSTR)': el argumento 1 no puede convertirse de 'LPCWSTR' a 'LPCSTR'
+D:\github_clones\GVONavish\GVONavish\GVOConfig.h(66,32): message : Los tipos señalados no están relacionados; la conversión requiere reinterpret_cast, conversión de estilo de C o conversión de estilo de función
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winbase.h(4701,1): message : vea la declaración de 'WritePrivateProfileStringA'
+D:\github_clones\GVONavish\GVONavish\GVOConfig.h(67,1): error C2664: 'BOOL WritePrivateProfileStringA(LPCSTR,LPCSTR,LPCSTR,LPCSTR)': el argumento 1 no puede convertirse de 'LPCWSTR' a 'LPCSTR'
+D:\github_clones\GVONavish\GVONavish\GVOConfig.h(67,32): message : Los tipos señalados no están relacionados; la conversión requiere reinterpret_cast, conversión de estilo de C o conversión de estilo de función
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winbase.h(4701,1): message : vea la declaración de 'WritePrivateProfileStringA'
+D:\github_clones\GVONavish\GVONavish\GVOConfig.h(68,1): error C2664: 'BOOL WritePrivateProfileStringA(LPCSTR,LPCSTR,LPCSTR,LPCSTR)': el argumento 1 no puede convertirse de 'LPCWSTR' a 'LPCSTR'
+D:\github_clones\GVONavish\GVONavish\GVOConfig.h(68,32): message : Los tipos señalados no están relacionados; la conversión requiere reinterpret_cast, conversión de estilo de C o conversión de estilo de función
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winbase.h(4701,1): message : vea la declaración de 'WritePrivateProfileStringA'
+D:\github_clones\GVONavish\GVONavish\GVOConfig.h(69,1): error C2664: 'BOOL WritePrivateProfileStringA(LPCSTR,LPCSTR,LPCSTR,LPCSTR)': el argumento 1 no puede convertirse de 'LPCWSTR' a 'LPCSTR'
+D:\github_clones\GVONavish\GVONavish\GVOConfig.h(69,32): message : Los tipos señalados no están relacionados; la conversión requiere reinterpret_cast, conversión de estilo de C o conversión de estilo de función
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winbase.h(4701,1): message : vea la declaración de 'WritePrivateProfileStringA'
+D:\github_clones\GVONavish\GVONavish\GVOConfig.h(70,1): error C2664: 'BOOL WritePrivateProfileStringA(LPCSTR,LPCSTR,LPCSTR,LPCSTR)': el argumento 1 no puede convertirse de 'LPCWSTR' a 'LPCSTR'
+D:\github_clones\GVONavish\GVONavish\GVOConfig.h(70,32): message : Los tipos señalados no están relacionados; la conversión requiere reinterpret_cast, conversión de estilo de C o conversión de estilo de función
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winbase.h(4701,1): message : vea la declaración de 'WritePrivateProfileStringA'
+D:\github_clones\GVONavish\GVONavish\GVOConfig.h(73,1): error C2664: 'BOOL WritePrivateProfileStringA(LPCSTR,LPCSTR,LPCSTR,LPCSTR)': el argumento 1 no puede convertirse de 'LPCWSTR' a 'LPCSTR'
+D:\github_clones\GVONavish\GVONavish\GVOConfig.h(73,31): message : Los tipos señalados no están relacionados; la conversión requiere reinterpret_cast, conversión de estilo de C o conversión de estilo de función
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winbase.h(4701,1): message : vea la declaración de 'WritePrivateProfileStringA'
+D:\github_clones\GVONavish\GVONavish\GVOConfig.h(74,1): error C2664: 'BOOL WritePrivateProfileStringA(LPCSTR,LPCSTR,LPCSTR,LPCSTR)': el argumento 1 no puede convertirse de 'LPCWSTR' a 'LPCSTR'
+D:\github_clones\GVONavish\GVONavish\GVOConfig.h(74,31): message : Los tipos señalados no están relacionados; la conversión requiere reinterpret_cast, conversión de estilo de C o conversión de estilo de función
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winbase.h(4701,1): message : vea la declaración de 'WritePrivateProfileStringA'
+D:\github_clones\GVONavish\GVONavish\GVOConfig.h(75,1): error C2664: 'BOOL WritePrivateProfileStringA(LPCSTR,LPCSTR,LPCSTR,LPCSTR)': el argumento 1 no puede convertirse de 'LPCWSTR' a 'LPCSTR'
+D:\github_clones\GVONavish\GVONavish\GVOConfig.h(75,31): message : Los tipos señalados no están relacionados; la conversión requiere reinterpret_cast, conversión de estilo de C o conversión de estilo de función
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winbase.h(4701,1): message : vea la declaración de 'WritePrivateProfileStringA'
+D:\github_clones\GVONavish\GVONavish\GVOConfig.h(76,1): error C2664: 'BOOL WritePrivateProfileStringA(LPCSTR,LPCSTR,LPCSTR,LPCSTR)': el argumento 1 no puede convertirse de 'LPCWSTR' a 'LPCSTR'
+D:\github_clones\GVONavish\GVONavish\GVOConfig.h(76,31): message : Los tipos señalados no están relacionados; la conversión requiere reinterpret_cast, conversión de estilo de C o conversión de estilo de función
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winbase.h(4701,1): message : vea la declaración de 'WritePrivateProfileStringA'
+D:\github_clones\GVONavish\GVONavish\GVOConfig.h(77,1): error C2664: 'BOOL WritePrivateProfileStringA(LPCSTR,LPCSTR,LPCSTR,LPCSTR)': el argumento 1 no puede convertirse de 'LPCWSTR' a 'LPCSTR'
+D:\github_clones\GVONavish\GVONavish\GVOConfig.h(77,32): message : Los tipos señalados no están relacionados; la conversión requiere reinterpret_cast, conversión de estilo de C o conversión de estilo de función
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winbase.h(4701,1): message : vea la declaración de 'WritePrivateProfileStringA'
+D:\github_clones\GVONavish\GVONavish\GVOConfig.h(80,1): error C2664: 'BOOL WritePrivateProfileStringA(LPCSTR,LPCSTR,LPCSTR,LPCSTR)': el argumento 1 no puede convertirse de 'LPCWSTR' a 'LPCSTR'
+D:\github_clones\GVONavish\GVONavish\GVOConfig.h(80,32): message : Los tipos señalados no están relacionados; la conversión requiere reinterpret_cast, conversión de estilo de C o conversión de estilo de función
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winbase.h(4701,1): message : vea la declaración de 'WritePrivateProfileStringA'
+D:\github_clones\GVONavish\GVONavish\GVOConfig.h(81,1): error C2664: 'BOOL WritePrivateProfileStringA(LPCSTR,LPCSTR,LPCSTR,LPCSTR)': el argumento 1 no puede convertirse de 'LPCWSTR' a 'LPCSTR'
+D:\github_clones\GVONavish\GVONavish\GVOConfig.h(81,32): message : Los tipos señalados no están relacionados; la conversión requiere reinterpret_cast, conversión de estilo de C o conversión de estilo de función
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winbase.h(4701,1): message : vea la declaración de 'WritePrivateProfileStringA'
+D:\github_clones\GVONavish\GVONavish\GVOConfig.h(85,1): error C2664: 'BOOL WritePrivateProfileStringA(LPCSTR,LPCSTR,LPCSTR,LPCSTR)': el argumento 1 no puede convertirse de 'LPCWSTR' a 'LPCSTR'
+D:\github_clones\GVONavish\GVONavish\GVOConfig.h(85,32): message : Los tipos señalados no están relacionados; la conversión requiere reinterpret_cast, conversión de estilo de C o conversión de estilo de función
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winbase.h(4701,1): message : vea la declaración de 'WritePrivateProfileStringA'
+D:\github_clones\GVONavish\GVONavish\GVOConfig.h(86,1): error C2664: 'BOOL WritePrivateProfileStringA(LPCSTR,LPCSTR,LPCSTR,LPCSTR)': el argumento 1 no puede convertirse de 'LPCWSTR' a 'LPCSTR'
+D:\github_clones\GVONavish\GVONavish\GVOConfig.h(86,32): message : Los tipos señalados no están relacionados; la conversión requiere reinterpret_cast, conversión de estilo de C o conversión de estilo de función
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winbase.h(4701,1): message : vea la declaración de 'WritePrivateProfileStringA'
+D:\github_clones\GVONavish\GVONavish\GVOConfig.h(87,1): error C2664: 'BOOL WritePrivateProfileStringA(LPCSTR,LPCSTR,LPCSTR,LPCSTR)': el argumento 1 no puede convertirse de 'LPCWSTR' a 'LPCSTR'
+D:\github_clones\GVONavish\GVONavish\GVOConfig.h(87,32): message : Los tipos señalados no están relacionados; la conversión requiere reinterpret_cast, conversión de estilo de C o conversión de estilo de función
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winbase.h(4701,1): message : vea la declaración de 'WritePrivateProfileStringA'
+D:\github_clones\GVONavish\GVONavish\GVOConfig.h(88,1): error C2664: 'BOOL WritePrivateProfileStringA(LPCSTR,LPCSTR,LPCSTR,LPCSTR)': el argumento 1 no puede convertirse de 'LPCWSTR' a 'LPCSTR'
+D:\github_clones\GVONavish\GVONavish\GVOConfig.h(88,32): message : Los tipos señalados no están relacionados; la conversión requiere reinterpret_cast, conversión de estilo de C o conversión de estilo de función
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winbase.h(4701,1): message : vea la declaración de 'WritePrivateProfileStringA'
+D:\github_clones\GVONavish\GVONavish\GVOConfig.h(92,1): error C2664: 'BOOL WritePrivateProfileStringA(LPCSTR,LPCSTR,LPCSTR,LPCSTR)': el argumento 4 no puede convertirse de 'LPCWSTR' a 'LPCSTR'
+D:\github_clones\GVONavish\GVONavish\GVOConfig.h(92,49): message : Los tipos señalados no están relacionados; la conversión requiere reinterpret_cast, conversión de estilo de C o conversión de estilo de función
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winbase.h(4701,1): message : vea la declaración de 'WritePrivateProfileStringA'
+D:\github_clones\GVONavish\GVONavish\GVOConfig.h(103,1): error C2664: 'UINT GetPrivateProfileIntA(LPCSTR,LPCSTR,INT,LPCSTR)': el argumento 1 no puede convertirse de 'LPCWSTR' a 'LPCSTR'
+D:\github_clones\GVONavish\GVONavish\GVOConfig.h(103,47): message : Los tipos señalados no están relacionados; la conversión requiere reinterpret_cast, conversión de estilo de C o conversión de estilo de función
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winbase.h(4597,1): message : vea la declaración de 'GetPrivateProfileIntA'
+D:\github_clones\GVONavish\GVONavish\GVOConfig.h(104,1): error C2664: 'UINT GetPrivateProfileIntA(LPCSTR,LPCSTR,INT,LPCSTR)': el argumento 1 no puede convertirse de 'LPCWSTR' a 'LPCSTR'
+D:\github_clones\GVONavish\GVONavish\GVOConfig.h(104,56): message : Los tipos señalados no están relacionados; la conversión requiere reinterpret_cast, conversión de estilo de C o conversión de estilo de función
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winbase.h(4597,1): message : vea la declaración de 'GetPrivateProfileIntA'
+D:\github_clones\GVONavish\GVONavish\GVOConfig.h(105,1): error C2664: 'UINT GetPrivateProfileIntA(LPCSTR,LPCSTR,INT,LPCSTR)': el argumento 1 no puede convertirse de 'LPCWSTR' a 'LPCSTR'
+D:\github_clones\GVONavish\GVONavish\GVOConfig.h(105,49): message : Los tipos señalados no están relacionados; la conversión requiere reinterpret_cast, conversión de estilo de C o conversión de estilo de función
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winbase.h(4597,1): message : vea la declaración de 'GetPrivateProfileIntA'
+D:\github_clones\GVONavish\GVONavish\GVOConfig.h(106,1): error C2664: 'UINT GetPrivateProfileIntA(LPCSTR,LPCSTR,INT,LPCSTR)': el argumento 1 no puede convertirse de 'LPCWSTR' a 'LPCSTR'
+D:\github_clones\GVONavish\GVONavish\GVOConfig.h(106,53): message : Los tipos señalados no están relacionados; la conversión requiere reinterpret_cast, conversión de estilo de C o conversión de estilo de función
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winbase.h(4597,1): message : vea la declaración de 'GetPrivateProfileIntA'
+D:\github_clones\GVONavish\GVONavish\GVOConfig.h(110,1): error C2664: 'UINT GetPrivateProfileIntA(LPCSTR,LPCSTR,INT,LPCSTR)': el argumento 1 no puede convertirse de 'LPCWSTR' a 'LPCSTR'
+D:\github_clones\GVONavish\GVONavish\GVOConfig.h(110,42): message : Los tipos señalados no están relacionados; la conversión requiere reinterpret_cast, conversión de estilo de C o conversión de estilo de función
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winbase.h(4597,1): message : vea la declaración de 'GetPrivateProfileIntA'
+D:\github_clones\GVONavish\GVONavish\GVOConfig.h(111,1): error C2664: 'UINT GetPrivateProfileIntA(LPCSTR,LPCSTR,INT,LPCSTR)': el argumento 1 no puede convertirse de 'LPCWSTR' a 'LPCSTR'
+D:\github_clones\GVONavish\GVONavish\GVOConfig.h(111,42): message : Los tipos señalados no están relacionados; la conversión requiere reinterpret_cast, conversión de estilo de C o conversión de estilo de función
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winbase.h(4597,1): message : vea la declaración de 'GetPrivateProfileIntA'
+D:\github_clones\GVONavish\GVONavish\GVOConfig.h(112,1): error C2664: 'UINT GetPrivateProfileIntA(LPCSTR,LPCSTR,INT,LPCSTR)': el argumento 1 no puede convertirse de 'LPCWSTR' a 'LPCSTR'
+D:\github_clones\GVONavish\GVONavish\GVOConfig.h(112,44): message : Los tipos señalados no están relacionados; la conversión requiere reinterpret_cast, conversión de estilo de C o conversión de estilo de función
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winbase.h(4597,1): message : vea la declaración de 'GetPrivateProfileIntA'
+D:\github_clones\GVONavish\GVONavish\GVOConfig.h(113,1): error C2664: 'UINT GetPrivateProfileIntA(LPCSTR,LPCSTR,INT,LPCSTR)': el argumento 1 no puede convertirse de 'LPCWSTR' a 'LPCSTR'
+D:\github_clones\GVONavish\GVONavish\GVOConfig.h(113,44): message : Los tipos señalados no están relacionados; la conversión requiere reinterpret_cast, conversión de estilo de C o conversión de estilo de función
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winbase.h(4597,1): message : vea la declaración de 'GetPrivateProfileIntA'
+D:\github_clones\GVONavish\GVONavish\GVOConfig.h(114,1): error C2664: 'UINT GetPrivateProfileIntA(LPCSTR,LPCSTR,INT,LPCSTR)': el argumento 1 no puede convertirse de 'LPCWSTR' a 'LPCSTR'
+D:\github_clones\GVONavish\GVONavish\GVOConfig.h(114,46): message : Los tipos señalados no están relacionados; la conversión requiere reinterpret_cast, conversión de estilo de C o conversión de estilo de función
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winbase.h(4597,1): message : vea la declaración de 'GetPrivateProfileIntA'
+D:\github_clones\GVONavish\GVONavish\GVOConfig.h(117,1): error C2664: 'UINT GetPrivateProfileIntA(LPCSTR,LPCSTR,INT,LPCSTR)': el argumento 1 no puede convertirse de 'LPCWSTR' a 'LPCSTR'
+D:\github_clones\GVONavish\GVONavish\GVOConfig.h(117,52): message : Los tipos señalados no están relacionados; la conversión requiere reinterpret_cast, conversión de estilo de C o conversión de estilo de función
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winbase.h(4597,1): message : vea la declaración de 'GetPrivateProfileIntA'
+D:\github_clones\GVONavish\GVONavish\GVOConfig.h(118,1): error C2664: 'UINT GetPrivateProfileIntA(LPCSTR,LPCSTR,INT,LPCSTR)': el argumento 1 no puede convertirse de 'LPCWSTR' a 'LPCSTR'
+D:\github_clones\GVONavish\GVONavish\GVOConfig.h(118,52): message : Los tipos señalados no están relacionados; la conversión requiere reinterpret_cast, conversión de estilo de C o conversión de estilo de función
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winbase.h(4597,1): message : vea la declaración de 'GetPrivateProfileIntA'
+D:\github_clones\GVONavish\GVONavish\GVOConfig.h(122,1): error C2664: 'UINT GetPrivateProfileIntA(LPCSTR,LPCSTR,INT,LPCSTR)': el argumento 1 no puede convertirse de 'LPCWSTR' a 'LPCSTR'
+D:\github_clones\GVONavish\GVONavish\GVOConfig.h(122,54): message : Los tipos señalados no están relacionados; la conversión requiere reinterpret_cast, conversión de estilo de C o conversión de estilo de función
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winbase.h(4597,1): message : vea la declaración de 'GetPrivateProfileIntA'
+D:\github_clones\GVONavish\GVONavish\GVOConfig.h(123,1): error C2664: 'DWORD GetPrivateProfileStringA(LPCSTR,LPCSTR,LPCSTR,LPSTR,DWORD,LPCSTR)': el argumento 1 no puede convertirse de 'LPCWSTR' a 'LPCSTR'
+D:\github_clones\GVONavish\GVONavish\GVOConfig.h(123,30): message : Los tipos señalados no están relacionados; la conversión requiere reinterpret_cast, conversión de estilo de C o conversión de estilo de función
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winbase.h(4645,1): message : vea la declaración de 'GetPrivateProfileStringA'
+D:\github_clones\GVONavish\GVONavish\GVOConfig.h(125,1): error C2664: 'DWORD GetPrivateProfileStringA(LPCSTR,LPCSTR,LPCSTR,LPSTR,DWORD,LPCSTR)': el argumento 1 no puede convertirse de 'LPCWSTR' a 'LPCSTR'
+D:\github_clones\GVONavish\GVONavish\GVOConfig.h(125,30): message : Los tipos señalados no están relacionados; la conversión requiere reinterpret_cast, conversión de estilo de C o conversión de estilo de función
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winbase.h(4645,1): message : vea la declaración de 'GetPrivateProfileStringA'
+D:\github_clones\GVONavish\GVONavish\GVOConfig.h(127,1): error C2664: 'UINT GetPrivateProfileIntA(LPCSTR,LPCSTR,INT,LPCSTR)': el argumento 1 no puede convertirse de 'LPCWSTR' a 'LPCSTR'
+D:\github_clones\GVONavish\GVONavish\GVOConfig.h(127,59): message : Los tipos señalados no están relacionados; la conversión requiere reinterpret_cast, conversión de estilo de C o conversión de estilo de función
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winbase.h(4597,1): message : vea la declaración de 'GetPrivateProfileIntA'
+D:\github_clones\GVONavish\GVONavish\GVORenderer.cpp(438,84): error C2664: 'int DrawTextA(HDC,LPCSTR,int,LPRECT,UINT)': el argumento 2 no puede convertirse de 'wchar_t [4096]' a 'LPCSTR'
+D:\github_clones\GVONavish\GVONavish\GVORenderer.cpp(438,22): message : Los tipos señalados no están relacionados; la conversión requiere reinterpret_cast, conversión de estilo de C o conversión de estilo de función
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winuser.h(8171,1): message : vea la declaración de 'DrawTextA'
+D:\github_clones\GVONavish\GVONavish\GVORenderer.cpp(445,70): error C2664: 'int DrawTextA(HDC,LPCSTR,int,LPRECT,UINT)': el argumento 2 no puede convertirse de 'wchar_t [4096]' a 'LPCSTR'
+D:\github_clones\GVONavish\GVONavish\GVORenderer.cpp(445,22): message : Los tipos señalados no están relacionados; la conversión requiere reinterpret_cast, conversión de estilo de C o conversión de estilo de función
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winuser.h(8171,1): message : vea la declaración de 'DrawTextA'
+  GVOShip.cpp
+D:\github_clones\GVONavish\GVONavish\GVONavish.h(22,5): error C2664: 'BOOL PathIsRelativeA(LPCSTR)': el argumento 1 no puede convertirse de 'const _Elem *' a 'LPCSTR'
+          with
+          [
+              _Elem=wchar_t
+          ]
+D:\github_clones\GVONavish\GVONavish\GVONavish.h(22,37): message : Los tipos señalados no están relacionados; la conversión requiere reinterpret_cast, conversión de estilo de C o conversión de estilo de función
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\Shlwapi.h(690,21): message : vea la declaración de 'PathIsRelativeA'
+D:\github_clones\GVONavish\GVONavish\GVONavish.h(24,66): error C2664: 'DWORD GetModuleFileNameA(HMODULE,LPSTR,DWORD)': el argumento 2 no puede convertirse de 'wchar_t [260]' a 'LPSTR'
+D:\github_clones\GVONavish\GVONavish\GVONavish.h(24,48): message : Los tipos señalados no están relacionados; la conversión requiere reinterpret_cast, conversión de estilo de C o conversión de estilo de función
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\libloaderapi.h(226,1): message : vea la declaración de 'GetModuleFileNameA'
+D:\github_clones\GVONavish\GVONavish\GVONavish.h(25,27): error C2664: 'BOOL PathRemoveFileSpecA(LPSTR)': el argumento 1 no puede convertirse de 'wchar_t [260]' a 'LPSTR'
+D:\github_clones\GVONavish\GVONavish\GVONavish.h(25,24): message : Los tipos señalados no están relacionados; la conversión requiere reinterpret_cast, conversión de estilo de C o conversión de estilo de función
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\Shlwapi.h(782,21): message : vea la declaración de 'PathRemoveFileSpecA'
+D:\github_clones\GVONavish\GVONavish\GVONavish.h(26,48): error C2664: 'LPSTR PathCombineA(LPSTR,LPCSTR,LPCSTR)': el argumento 1 no puede convertirse de 'wchar_t [260]' a 'LPSTR'
+D:\github_clones\GVONavish\GVONavish\GVONavish.h(26,17): message : Los tipos señalados no están relacionados; la conversión requiere reinterpret_cast, conversión de estilo de C o conversión de estilo de función
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\Shlwapi.h(547,19): message : vea la declaración de 'PathCombineA'
+D:\github_clones\GVONavish\GVONavish\GVONavish.h(29,39): error C2664: 'LPSTR lstrcpyA(LPSTR,LPCSTR)': el argumento 1 no puede convertirse de 'wchar_t [260]' a 'LPSTR'
+D:\github_clones\GVONavish\GVONavish\GVONavish.h(29,13): message : Los tipos señalados no están relacionados; la conversión requiere reinterpret_cast, conversión de estilo de C o conversión de estilo de función
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winbase.h(2828,1): message : vea la declaración de 'lstrcpyA'
+  GVOShipRoute.cpp
+D:\github_clones\GVONavish\GVONavish\GVONavish.h(22,5): error C2664: 'BOOL PathIsRelativeA(LPCSTR)': el argumento 1 no puede convertirse de 'const _Elem *' a 'LPCSTR'
+          with
+          [
+              _Elem=wchar_t
+          ]
+D:\github_clones\GVONavish\GVONavish\GVONavish.h(22,37): message : Los tipos señalados no están relacionados; la conversión requiere reinterpret_cast, conversión de estilo de C o conversión de estilo de función
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\Shlwapi.h(690,21): message : vea la declaración de 'PathIsRelativeA'
+D:\github_clones\GVONavish\GVONavish\GVONavish.h(24,66): error C2664: 'DWORD GetModuleFileNameA(HMODULE,LPSTR,DWORD)': el argumento 2 no puede convertirse de 'wchar_t [260]' a 'LPSTR'
+D:\github_clones\GVONavish\GVONavish\GVONavish.h(24,48): message : Los tipos señalados no están relacionados; la conversión requiere reinterpret_cast, conversión de estilo de C o conversión de estilo de función
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\libloaderapi.h(226,1): message : vea la declaración de 'GetModuleFileNameA'
+D:\github_clones\GVONavish\GVONavish\GVONavish.h(25,27): error C2664: 'BOOL PathRemoveFileSpecA(LPSTR)': el argumento 1 no puede convertirse de 'wchar_t [260]' a 'LPSTR'
+D:\github_clones\GVONavish\GVONavish\GVONavish.h(25,24): message : Los tipos señalados no están relacionados; la conversión requiere reinterpret_cast, conversión de estilo de C o conversión de estilo de función
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\Shlwapi.h(782,21): message : vea la declaración de 'PathRemoveFileSpecA'
+D:\github_clones\GVONavish\GVONavish\GVONavish.h(26,48): error C2664: 'LPSTR PathCombineA(LPSTR,LPCSTR,LPCSTR)': el argumento 1 no puede convertirse de 'wchar_t [260]' a 'LPSTR'
+D:\github_clones\GVONavish\GVONavish\GVONavish.h(26,17): message : Los tipos señalados no están relacionados; la conversión requiere reinterpret_cast, conversión de estilo de C o conversión de estilo de función
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\Shlwapi.h(547,19): message : vea la declaración de 'PathCombineA'
+D:\github_clones\GVONavish\GVONavish\GVONavish.h(29,39): error C2664: 'LPSTR lstrcpyA(LPSTR,LPCSTR)': el argumento 1 no puede convertirse de 'wchar_t [260]' a 'LPSTR'
+D:\github_clones\GVONavish\GVONavish\GVONavish.h(29,13): message : Los tipos señalados no están relacionados; la conversión requiere reinterpret_cast, conversión de estilo de C o conversión de estilo de función
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winbase.h(2828,1): message : vea la declaración de 'lstrcpyA'
+D:\github_clones\GVONavish\GVONavish\GVOShipRoute.cpp(47,5): error C2027: uso del tipo 'std::basic_ostream<char,std::char_traits<char>>' sin definir
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\iosfwd(225): message : vea la declaración de 'std::basic_ostream<char,std::char_traits<char>>'
+D:\github_clones\GVONavish\GVONavish\GVOShipRoute.cpp(48,14): error C2039: "runtime_error": no es un miembro de "std"
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\string(24): message : vea la declaración de 'std'
+D:\github_clones\GVONavish\GVONavish\GVOShipRoute.cpp(48,27): error C3861: 'runtime_error': no se encontró el identificador
+D:\github_clones\GVONavish\GVONavish\GVOShipRoute.cpp(53,4): error C2027: uso del tipo 'std::basic_ostream<char,std::char_traits<char>>' sin definir
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\iosfwd(225): message : vea la declaración de 'std::basic_ostream<char,std::char_traits<char>>'
+D:\github_clones\GVONavish\GVONavish\GVOShipRoute.cpp(57,5): error C2027: uso del tipo 'std::basic_ostream<char,std::char_traits<char>>' sin definir
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\iosfwd(225): message : vea la declaración de 'std::basic_ostream<char,std::char_traits<char>>'
+D:\github_clones\GVONavish\GVONavish\GVOShipRoute.cpp(59,6): error C2027: uso del tipo 'std::basic_ostream<char,std::char_traits<char>>' sin definir
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\iosfwd(225): message : vea la declaración de 'std::basic_ostream<char,std::char_traits<char>>'
+D:\github_clones\GVONavish\GVONavish\GVOShipRoute.cpp(71,5): error C2027: uso del tipo 'std::basic_istream<char,std::char_traits<char>>' sin definir
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\iosfwd(224): message : vea la declaración de 'std::basic_istream<char,std::char_traits<char>>'
+D:\github_clones\GVONavish\GVONavish\GVOShipRoute.cpp(72,14): error C2039: "runtime_error": no es un miembro de "std"
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\string(24): message : vea la declaración de 'std'
+D:\github_clones\GVONavish\GVONavish\GVOShipRoute.cpp(72,27): error C3861: 'runtime_error': no se encontró el identificador
+D:\github_clones\GVONavish\GVONavish\GVOShipRoute.cpp(76,4): error C2027: uso del tipo 'std::basic_istream<char,std::char_traits<char>>' sin definir
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\iosfwd(224): message : vea la declaración de 'std::basic_istream<char,std::char_traits<char>>'
+D:\github_clones\GVONavish\GVONavish\GVOShipRoute.cpp(79,14): error C2039: "runtime_error": no es un miembro de "std"
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\string(24): message : vea la declaración de 'std'
+D:\github_clones\GVONavish\GVONavish\GVOShipRoute.cpp(79,27): error C3861: 'runtime_error': no se encontró el identificador
+D:\github_clones\GVONavish\GVONavish\GVOShipRoute.cpp(87,5): error C2027: uso del tipo 'std::basic_istream<char,std::char_traits<char>>' sin definir
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\iosfwd(224): message : vea la declaración de 'std::basic_istream<char,std::char_traits<char>>'
+D:\github_clones\GVONavish\GVONavish\GVOShipRoute.cpp(90,6): error C2027: uso del tipo 'std::basic_istream<char,std::char_traits<char>>' sin definir
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\iosfwd(224): message : vea la declaración de 'std::basic_istream<char,std::char_traits<char>>'
+  GVOShipRouteList.cpp
+D:\github_clones\GVONavish\GVONavish\GVONavish.h(22,5): error C2664: 'BOOL PathIsRelativeA(LPCSTR)': el argumento 1 no puede convertirse de 'const _Elem *' a 'LPCSTR'
+          with
+          [
+              _Elem=wchar_t
+          ]
+D:\github_clones\GVONavish\GVONavish\GVONavish.h(22,37): message : Los tipos señalados no están relacionados; la conversión requiere reinterpret_cast, conversión de estilo de C o conversión de estilo de función
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\Shlwapi.h(690,21): message : vea la declaración de 'PathIsRelativeA'
+D:\github_clones\GVONavish\GVONavish\GVONavish.h(24,66): error C2664: 'DWORD GetModuleFileNameA(HMODULE,LPSTR,DWORD)': el argumento 2 no puede convertirse de 'wchar_t [260]' a 'LPSTR'
+D:\github_clones\GVONavish\GVONavish\GVONavish.h(24,48): message : Los tipos señalados no están relacionados; la conversión requiere reinterpret_cast, conversión de estilo de C o conversión de estilo de función
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\libloaderapi.h(226,1): message : vea la declaración de 'GetModuleFileNameA'
+D:\github_clones\GVONavish\GVONavish\GVONavish.h(25,27): error C2664: 'BOOL PathRemoveFileSpecA(LPSTR)': el argumento 1 no puede convertirse de 'wchar_t [260]' a 'LPSTR'
+D:\github_clones\GVONavish\GVONavish\GVONavish.h(25,24): message : Los tipos señalados no están relacionados; la conversión requiere reinterpret_cast, conversión de estilo de C o conversión de estilo de función
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\Shlwapi.h(782,21): message : vea la declaración de 'PathRemoveFileSpecA'
+D:\github_clones\GVONavish\GVONavish\GVONavish.h(26,48): error C2664: 'LPSTR PathCombineA(LPSTR,LPCSTR,LPCSTR)': el argumento 1 no puede convertirse de 'wchar_t [260]' a 'LPSTR'
+D:\github_clones\GVONavish\GVONavish\GVONavish.h(26,17): message : Los tipos señalados no están relacionados; la conversión requiere reinterpret_cast, conversión de estilo de C o conversión de estilo de función
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\Shlwapi.h(547,19): message : vea la declaración de 'PathCombineA'
+D:\github_clones\GVONavish\GVONavish\GVONavish.h(29,39): error C2664: 'LPSTR lstrcpyA(LPSTR,LPCSTR)': el argumento 1 no puede convertirse de 'wchar_t [260]' a 'LPSTR'
+D:\github_clones\GVONavish\GVONavish\GVONavish.h(29,13): message : Los tipos señalados no están relacionados; la conversión requiere reinterpret_cast, conversión de estilo de C o conversión de estilo de función
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winbase.h(2828,1): message : vea la declaración de 'lstrcpyA'
+  GVOShipRouteManageView.cpp
+D:\github_clones\GVONavish\GVONavish\GVONavish.h(22,5): error C2664: 'BOOL PathIsRelativeA(LPCSTR)': el argumento 1 no puede convertirse de 'const _Elem *' a 'LPCSTR'
+          with
+          [
+              _Elem=wchar_t
+          ]
+D:\github_clones\GVONavish\GVONavish\GVONavish.h(22,37): message : Los tipos señalados no están relacionados; la conversión requiere reinterpret_cast, conversión de estilo de C o conversión de estilo de función
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\Shlwapi.h(690,21): message : vea la declaración de 'PathIsRelativeA'
+D:\github_clones\GVONavish\GVONavish\GVONavish.h(24,66): error C2664: 'DWORD GetModuleFileNameA(HMODULE,LPSTR,DWORD)': el argumento 2 no puede convertirse de 'wchar_t [260]' a 'LPSTR'
+D:\github_clones\GVONavish\GVONavish\GVONavish.h(24,48): message : Los tipos señalados no están relacionados; la conversión requiere reinterpret_cast, conversión de estilo de C o conversión de estilo de función
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\libloaderapi.h(226,1): message : vea la declaración de 'GetModuleFileNameA'
+D:\github_clones\GVONavish\GVONavish\GVONavish.h(25,27): error C2664: 'BOOL PathRemoveFileSpecA(LPSTR)': el argumento 1 no puede convertirse de 'wchar_t [260]' a 'LPSTR'
+D:\github_clones\GVONavish\GVONavish\GVONavish.h(25,24): message : Los tipos señalados no están relacionados; la conversión requiere reinterpret_cast, conversión de estilo de C o conversión de estilo de función
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\Shlwapi.h(782,21): message : vea la declaración de 'PathRemoveFileSpecA'
+D:\github_clones\GVONavish\GVONavish\GVONavish.h(26,48): error C2664: 'LPSTR PathCombineA(LPSTR,LPCSTR,LPCSTR)': el argumento 1 no puede convertirse de 'wchar_t [260]' a 'LPSTR'
+D:\github_clones\GVONavish\GVONavish\GVONavish.h(26,17): message : Los tipos señalados no están relacionados; la conversión requiere reinterpret_cast, conversión de estilo de C o conversión de estilo de función
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\Shlwapi.h(547,19): message : vea la declaración de 'PathCombineA'
+D:\github_clones\GVONavish\GVONavish\GVONavish.h(29,39): error C2664: 'LPSTR lstrcpyA(LPSTR,LPCSTR)': el argumento 1 no puede convertirse de 'wchar_t [260]' a 'LPSTR'
+D:\github_clones\GVONavish\GVONavish\GVONavish.h(29,13): message : Los tipos señalados no están relacionados; la conversión requiere reinterpret_cast, conversión de estilo de C o conversión de estilo de función
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winbase.h(2828,1): message : vea la declaración de 'lstrcpyA'
+D:\github_clones\GVONavish\GVONavish\GVOShipRouteManageView.cpp(34,13): error C2664: 'HWND CreateDialogParamA(HINSTANCE,LPCSTR,HWND,DLGPROC,LPARAM)': el argumento 4 no puede convertirse de 'BOOL (__cdecl *)(HWND,UINT,WPARAM,LPARAM)' a 'DLGPROC'
+D:\github_clones\GVONavish\GVONavish\GVOShipRouteManageView.cpp(35,15): message : Ninguna de las funciones con este nombre en el ámbito coincide con el tipo de destino
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winuser.h(4988,1): message : vea la declaración de 'CreateDialogParamA'
+D:\github_clones\GVONavish\GVONavish\GVOShipRouteManageView.cpp(97,104): error C2065: 'GWL_USERDATA': identificador no declarado
+D:\github_clones\GVONavish\GVONavish\GVOShipRouteManageView.cpp(101,29): error C2065: 'GWL_USERDATA': identificador no declarado
+D:\github_clones\GVONavish\GVONavish\GVOShipRouteManageView.cpp(243,42): error C2664: 'LPSTR lstrcpyA(LPSTR,LPCSTR)': el argumento 2 no puede convertirse de 'const _Elem *' a 'LPCSTR'
+          with
+          [
+              _Elem=wchar_t
+          ]
+D:\github_clones\GVONavish\GVONavish\GVOShipRouteManageView.cpp(243,39): message : Los tipos señalados no están relacionados; la conversión requiere reinterpret_cast, conversión de estilo de C o conversión de estilo de función
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winbase.h(2828,1): message : vea la declaración de 'lstrcpyA'
+D:\github_clones\GVONavish\GVONavish\GVOShipRouteManageView.cpp(322,31): error C2440: '=': no se puede realizar la conversión de 'const wchar_t [10]' a 'LPSTR'
+D:\github_clones\GVONavish\GVONavish\GVOShipRouteManageView.cpp(322,19): message : Los tipos señalados no están relacionados; la conversión requiere reinterpret_cast, conversión de estilo de C o conversión de estilo de función
+D:\github_clones\GVONavish\GVONavish\GVOShipRouteManageView.cpp(326,29): error C2440: '=': no se puede realizar la conversión de 'const wchar_t [8]' a 'LPSTR'
+D:\github_clones\GVONavish\GVONavish\GVOShipRouteManageView.cpp(326,19): message : Los tipos señalados no están relacionados; la conversión requiere reinterpret_cast, conversión de estilo de C o conversión de estilo de función
+D:\github_clones\GVONavish\GVONavish\GVOShipRouteManageView.cpp(330,30): error C2440: '=': no se puede realizar la conversión de 'const wchar_t [9]' a 'LPSTR'
+D:\github_clones\GVONavish\GVONavish\GVOShipRouteManageView.cpp(330,19): message : Los tipos señalados no están relacionados; la conversión requiere reinterpret_cast, conversión de estilo de C o conversión de estilo de función
+  GVOSurveyCoordExtractor.cpp
+D:\github_clones\GVONavish\GVONavish\GVONavish.h(22,5): error C2664: 'BOOL PathIsRelativeA(LPCSTR)': el argumento 1 no puede convertirse de 'const _Elem *' a 'LPCSTR'
+          with
+          [
+              _Elem=wchar_t
+          ]
+D:\github_clones\GVONavish\GVONavish\GVONavish.h(22,37): message : Los tipos señalados no están relacionados; la conversión requiere reinterpret_cast, conversión de estilo de C o conversión de estilo de función
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\Shlwapi.h(690,21): message : vea la declaración de 'PathIsRelativeA'
+D:\github_clones\GVONavish\GVONavish\GVONavish.h(24,66): error C2664: 'DWORD GetModuleFileNameA(HMODULE,LPSTR,DWORD)': el argumento 2 no puede convertirse de 'wchar_t [260]' a 'LPSTR'
+D:\github_clones\GVONavish\GVONavish\GVONavish.h(24,48): message : Los tipos señalados no están relacionados; la conversión requiere reinterpret_cast, conversión de estilo de C o conversión de estilo de función
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\libloaderapi.h(226,1): message : vea la declaración de 'GetModuleFileNameA'
+D:\github_clones\GVONavish\GVONavish\GVONavish.h(25,27): error C2664: 'BOOL PathRemoveFileSpecA(LPSTR)': el argumento 1 no puede convertirse de 'wchar_t [260]' a 'LPSTR'
+D:\github_clones\GVONavish\GVONavish\GVONavish.h(25,24): message : Los tipos señalados no están relacionados; la conversión requiere reinterpret_cast, conversión de estilo de C o conversión de estilo de función
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\Shlwapi.h(782,21): message : vea la declaración de 'PathRemoveFileSpecA'
+D:\github_clones\GVONavish\GVONavish\GVONavish.h(26,48): error C2664: 'LPSTR PathCombineA(LPSTR,LPCSTR,LPCSTR)': el argumento 1 no puede convertirse de 'wchar_t [260]' a 'LPSTR'
+D:\github_clones\GVONavish\GVONavish\GVONavish.h(26,17): message : Los tipos señalados no están relacionados; la conversión requiere reinterpret_cast, conversión de estilo de C o conversión de estilo de función
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\Shlwapi.h(547,19): message : vea la declaración de 'PathCombineA'
+D:\github_clones\GVONavish\GVONavish\GVONavish.h(29,39): error C2664: 'LPSTR lstrcpyA(LPSTR,LPCSTR)': el argumento 1 no puede convertirse de 'wchar_t [260]' a 'LPSTR'
+D:\github_clones\GVONavish\GVONavish\GVONavish.h(29,13): message : Los tipos señalados no están relacionados; la conversión requiere reinterpret_cast, conversión de estilo de C o conversión de estilo de función
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winbase.h(2828,1): message : vea la declaración de 'lstrcpyA'
+  GVOTexture.cpp
+D:\github_clones\GVONavish\GVONavish\GVOImage.h(105,32): error C2039: "wstring": no es un miembro de "std"
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\deque(24): message : vea la declaración de 'std'
+D:\github_clones\GVONavish\GVONavish\GVOImage.h(105,39): error C4430: falta el especificador de tipo; se presupone int. Nota: C++ no admite default-int
+D:\github_clones\GVONavish\GVONavish\GVOImage.h(105,39): error C2143: error de sintaxis: falta ',' delante de '&'
+  GVOWorldMap.cpp
+D:\github_clones\GVONavish\GVONavish\GVONavish.h(22,5): error C2664: 'BOOL PathIsRelativeA(LPCSTR)': el argumento 1 no puede convertirse de 'const _Elem *' a 'LPCSTR'
+          with
+          [
+              _Elem=wchar_t
+          ]
+D:\github_clones\GVONavish\GVONavish\GVONavish.h(22,37): message : Los tipos señalados no están relacionados; la conversión requiere reinterpret_cast, conversión de estilo de C o conversión de estilo de función
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\Shlwapi.h(690,21): message : vea la declaración de 'PathIsRelativeA'
+D:\github_clones\GVONavish\GVONavish\GVONavish.h(24,66): error C2664: 'DWORD GetModuleFileNameA(HMODULE,LPSTR,DWORD)': el argumento 2 no puede convertirse de 'wchar_t [260]' a 'LPSTR'
+D:\github_clones\GVONavish\GVONavish\GVONavish.h(24,48): message : Los tipos señalados no están relacionados; la conversión requiere reinterpret_cast, conversión de estilo de C o conversión de estilo de función
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\libloaderapi.h(226,1): message : vea la declaración de 'GetModuleFileNameA'
+D:\github_clones\GVONavish\GVONavish\GVONavish.h(25,27): error C2664: 'BOOL PathRemoveFileSpecA(LPSTR)': el argumento 1 no puede convertirse de 'wchar_t [260]' a 'LPSTR'
+D:\github_clones\GVONavish\GVONavish\GVONavish.h(25,24): message : Los tipos señalados no están relacionados; la conversión requiere reinterpret_cast, conversión de estilo de C o conversión de estilo de función
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\Shlwapi.h(782,21): message : vea la declaración de 'PathRemoveFileSpecA'
+D:\github_clones\GVONavish\GVONavish\GVONavish.h(26,48): error C2664: 'LPSTR PathCombineA(LPSTR,LPCSTR,LPCSTR)': el argumento 1 no puede convertirse de 'wchar_t [260]' a 'LPSTR'
+D:\github_clones\GVONavish\GVONavish\GVONavish.h(26,17): message : Los tipos señalados no están relacionados; la conversión requiere reinterpret_cast, conversión de estilo de C o conversión de estilo de función
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\Shlwapi.h(547,19): message : vea la declaración de 'PathCombineA'
+D:\github_clones\GVONavish\GVONavish\GVONavish.h(29,39): error C2664: 'LPSTR lstrcpyA(LPSTR,LPCSTR)': el argumento 1 no puede convertirse de 'wchar_t [260]' a 'LPSTR'
+D:\github_clones\GVONavish\GVONavish\GVONavish.h(29,13): message : Los tipos señalados no están relacionados; la conversión requiere reinterpret_cast, conversión de estilo de C o conversión de estilo de función
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winbase.h(2828,1): message : vea la declaración de 'lstrcpyA'
+D:\github_clones\GVONavish\GVONavish\GVOConfig.h(66,1): error C2664: 'BOOL WritePrivateProfileStringA(LPCSTR,LPCSTR,LPCSTR,LPCSTR)': el argumento 1 no puede convertirse de 'LPCWSTR' a 'LPCSTR'
+D:\github_clones\GVONavish\GVONavish\GVOConfig.h(66,32): message : Los tipos señalados no están relacionados; la conversión requiere reinterpret_cast, conversión de estilo de C o conversión de estilo de función
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winbase.h(4701,1): message : vea la declaración de 'WritePrivateProfileStringA'
+D:\github_clones\GVONavish\GVONavish\GVOConfig.h(67,1): error C2664: 'BOOL WritePrivateProfileStringA(LPCSTR,LPCSTR,LPCSTR,LPCSTR)': el argumento 1 no puede convertirse de 'LPCWSTR' a 'LPCSTR'
+D:\github_clones\GVONavish\GVONavish\GVOConfig.h(67,32): message : Los tipos señalados no están relacionados; la conversión requiere reinterpret_cast, conversión de estilo de C o conversión de estilo de función
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winbase.h(4701,1): message : vea la declaración de 'WritePrivateProfileStringA'
+D:\github_clones\GVONavish\GVONavish\GVOConfig.h(68,1): error C2664: 'BOOL WritePrivateProfileStringA(LPCSTR,LPCSTR,LPCSTR,LPCSTR)': el argumento 1 no puede convertirse de 'LPCWSTR' a 'LPCSTR'
+D:\github_clones\GVONavish\GVONavish\GVOConfig.h(68,32): message : Los tipos señalados no están relacionados; la conversión requiere reinterpret_cast, conversión de estilo de C o conversión de estilo de función
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winbase.h(4701,1): message : vea la declaración de 'WritePrivateProfileStringA'
+D:\github_clones\GVONavish\GVONavish\GVOConfig.h(69,1): error C2664: 'BOOL WritePrivateProfileStringA(LPCSTR,LPCSTR,LPCSTR,LPCSTR)': el argumento 1 no puede convertirse de 'LPCWSTR' a 'LPCSTR'
+D:\github_clones\GVONavish\GVONavish\GVOConfig.h(69,32): message : Los tipos señalados no están relacionados; la conversión requiere reinterpret_cast, conversión de estilo de C o conversión de estilo de función
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winbase.h(4701,1): message : vea la declaración de 'WritePrivateProfileStringA'
+D:\github_clones\GVONavish\GVONavish\GVOConfig.h(70,1): error C2664: 'BOOL WritePrivateProfileStringA(LPCSTR,LPCSTR,LPCSTR,LPCSTR)': el argumento 1 no puede convertirse de 'LPCWSTR' a 'LPCSTR'
+D:\github_clones\GVONavish\GVONavish\GVOConfig.h(70,32): message : Los tipos señalados no están relacionados; la conversión requiere reinterpret_cast, conversión de estilo de C o conversión de estilo de función
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winbase.h(4701,1): message : vea la declaración de 'WritePrivateProfileStringA'
+D:\github_clones\GVONavish\GVONavish\GVOConfig.h(73,1): error C2664: 'BOOL WritePrivateProfileStringA(LPCSTR,LPCSTR,LPCSTR,LPCSTR)': el argumento 1 no puede convertirse de 'LPCWSTR' a 'LPCSTR'
+D:\github_clones\GVONavish\GVONavish\GVOConfig.h(73,31): message : Los tipos señalados no están relacionados; la conversión requiere reinterpret_cast, conversión de estilo de C o conversión de estilo de función
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winbase.h(4701,1): message : vea la declaración de 'WritePrivateProfileStringA'
+D:\github_clones\GVONavish\GVONavish\GVOConfig.h(74,1): error C2664: 'BOOL WritePrivateProfileStringA(LPCSTR,LPCSTR,LPCSTR,LPCSTR)': el argumento 1 no puede convertirse de 'LPCWSTR' a 'LPCSTR'
+D:\github_clones\GVONavish\GVONavish\GVOConfig.h(74,31): message : Los tipos señalados no están relacionados; la conversión requiere reinterpret_cast, conversión de estilo de C o conversión de estilo de función
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winbase.h(4701,1): message : vea la declaración de 'WritePrivateProfileStringA'
+D:\github_clones\GVONavish\GVONavish\GVOConfig.h(75,1): error C2664: 'BOOL WritePrivateProfileStringA(LPCSTR,LPCSTR,LPCSTR,LPCSTR)': el argumento 1 no puede convertirse de 'LPCWSTR' a 'LPCSTR'
+D:\github_clones\GVONavish\GVONavish\GVOConfig.h(75,31): message : Los tipos señalados no están relacionados; la conversión requiere reinterpret_cast, conversión de estilo de C o conversión de estilo de función
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winbase.h(4701,1): message : vea la declaración de 'WritePrivateProfileStringA'
+D:\github_clones\GVONavish\GVONavish\GVOConfig.h(76,1): error C2664: 'BOOL WritePrivateProfileStringA(LPCSTR,LPCSTR,LPCSTR,LPCSTR)': el argumento 1 no puede convertirse de 'LPCWSTR' a 'LPCSTR'
+D:\github_clones\GVONavish\GVONavish\GVOConfig.h(76,31): message : Los tipos señalados no están relacionados; la conversión requiere reinterpret_cast, conversión de estilo de C o conversión de estilo de función
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winbase.h(4701,1): message : vea la declaración de 'WritePrivateProfileStringA'
+D:\github_clones\GVONavish\GVONavish\GVOConfig.h(77,1): error C2664: 'BOOL WritePrivateProfileStringA(LPCSTR,LPCSTR,LPCSTR,LPCSTR)': el argumento 1 no puede convertirse de 'LPCWSTR' a 'LPCSTR'
+D:\github_clones\GVONavish\GVONavish\GVOConfig.h(77,32): message : Los tipos señalados no están relacionados; la conversión requiere reinterpret_cast, conversión de estilo de C o conversión de estilo de función
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winbase.h(4701,1): message : vea la declaración de 'WritePrivateProfileStringA'
+D:\github_clones\GVONavish\GVONavish\GVOConfig.h(80,1): error C2664: 'BOOL WritePrivateProfileStringA(LPCSTR,LPCSTR,LPCSTR,LPCSTR)': el argumento 1 no puede convertirse de 'LPCWSTR' a 'LPCSTR'
+D:\github_clones\GVONavish\GVONavish\GVOConfig.h(80,32): message : Los tipos señalados no están relacionados; la conversión requiere reinterpret_cast, conversión de estilo de C o conversión de estilo de función
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winbase.h(4701,1): message : vea la declaración de 'WritePrivateProfileStringA'
+D:\github_clones\GVONavish\GVONavish\GVOConfig.h(81,1): error C2664: 'BOOL WritePrivateProfileStringA(LPCSTR,LPCSTR,LPCSTR,LPCSTR)': el argumento 1 no puede convertirse de 'LPCWSTR' a 'LPCSTR'
+D:\github_clones\GVONavish\GVONavish\GVOConfig.h(81,32): message : Los tipos señalados no están relacionados; la conversión requiere reinterpret_cast, conversión de estilo de C o conversión de estilo de función
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winbase.h(4701,1): message : vea la declaración de 'WritePrivateProfileStringA'
+D:\github_clones\GVONavish\GVONavish\GVOConfig.h(85,1): error C2664: 'BOOL WritePrivateProfileStringA(LPCSTR,LPCSTR,LPCSTR,LPCSTR)': el argumento 1 no puede convertirse de 'LPCWSTR' a 'LPCSTR'
+D:\github_clones\GVONavish\GVONavish\GVOConfig.h(85,32): message : Los tipos señalados no están relacionados; la conversión requiere reinterpret_cast, conversión de estilo de C o conversión de estilo de función
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winbase.h(4701,1): message : vea la declaración de 'WritePrivateProfileStringA'
+D:\github_clones\GVONavish\GVONavish\GVOConfig.h(86,1): error C2664: 'BOOL WritePrivateProfileStringA(LPCSTR,LPCSTR,LPCSTR,LPCSTR)': el argumento 1 no puede convertirse de 'LPCWSTR' a 'LPCSTR'
+D:\github_clones\GVONavish\GVONavish\GVOConfig.h(86,32): message : Los tipos señalados no están relacionados; la conversión requiere reinterpret_cast, conversión de estilo de C o conversión de estilo de función
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winbase.h(4701,1): message : vea la declaración de 'WritePrivateProfileStringA'
+D:\github_clones\GVONavish\GVONavish\GVOConfig.h(87,1): error C2664: 'BOOL WritePrivateProfileStringA(LPCSTR,LPCSTR,LPCSTR,LPCSTR)': el argumento 1 no puede convertirse de 'LPCWSTR' a 'LPCSTR'
+D:\github_clones\GVONavish\GVONavish\GVOConfig.h(87,32): message : Los tipos señalados no están relacionados; la conversión requiere reinterpret_cast, conversión de estilo de C o conversión de estilo de función
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winbase.h(4701,1): message : vea la declaración de 'WritePrivateProfileStringA'
+D:\github_clones\GVONavish\GVONavish\GVOConfig.h(88,1): error C2664: 'BOOL WritePrivateProfileStringA(LPCSTR,LPCSTR,LPCSTR,LPCSTR)': el argumento 1 no puede convertirse de 'LPCWSTR' a 'LPCSTR'
+D:\github_clones\GVONavish\GVONavish\GVOConfig.h(88,32): message : Los tipos señalados no están relacionados; la conversión requiere reinterpret_cast, conversión de estilo de C o conversión de estilo de función
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winbase.h(4701,1): message : vea la declaración de 'WritePrivateProfileStringA'
+D:\github_clones\GVONavish\GVONavish\GVOConfig.h(92,1): error C2664: 'BOOL WritePrivateProfileStringA(LPCSTR,LPCSTR,LPCSTR,LPCSTR)': el argumento 4 no puede convertirse de 'LPCWSTR' a 'LPCSTR'
+D:\github_clones\GVONavish\GVONavish\GVOConfig.h(92,49): message : Los tipos señalados no están relacionados; la conversión requiere reinterpret_cast, conversión de estilo de C o conversión de estilo de función
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winbase.h(4701,1): message : vea la declaración de 'WritePrivateProfileStringA'
+D:\github_clones\GVONavish\GVONavish\GVOConfig.h(103,1): error C2664: 'UINT GetPrivateProfileIntA(LPCSTR,LPCSTR,INT,LPCSTR)': el argumento 1 no puede convertirse de 'LPCWSTR' a 'LPCSTR'
+D:\github_clones\GVONavish\GVONavish\GVOConfig.h(103,47): message : Los tipos señalados no están relacionados; la conversión requiere reinterpret_cast, conversión de estilo de C o conversión de estilo de función
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winbase.h(4597,1): message : vea la declaración de 'GetPrivateProfileIntA'
+D:\github_clones\GVONavish\GVONavish\GVOConfig.h(104,1): error C2664: 'UINT GetPrivateProfileIntA(LPCSTR,LPCSTR,INT,LPCSTR)': el argumento 1 no puede convertirse de 'LPCWSTR' a 'LPCSTR'
+D:\github_clones\GVONavish\GVONavish\GVOConfig.h(104,56): message : Los tipos señalados no están relacionados; la conversión requiere reinterpret_cast, conversión de estilo de C o conversión de estilo de función
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winbase.h(4597,1): message : vea la declaración de 'GetPrivateProfileIntA'
+D:\github_clones\GVONavish\GVONavish\GVOConfig.h(105,1): error C2664: 'UINT GetPrivateProfileIntA(LPCSTR,LPCSTR,INT,LPCSTR)': el argumento 1 no puede convertirse de 'LPCWSTR' a 'LPCSTR'
+D:\github_clones\GVONavish\GVONavish\GVOConfig.h(105,49): message : Los tipos señalados no están relacionados; la conversión requiere reinterpret_cast, conversión de estilo de C o conversión de estilo de función
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winbase.h(4597,1): message : vea la declaración de 'GetPrivateProfileIntA'
+D:\github_clones\GVONavish\GVONavish\GVOConfig.h(106,1): error C2664: 'UINT GetPrivateProfileIntA(LPCSTR,LPCSTR,INT,LPCSTR)': el argumento 1 no puede convertirse de 'LPCWSTR' a 'LPCSTR'
+D:\github_clones\GVONavish\GVONavish\GVOConfig.h(106,53): message : Los tipos señalados no están relacionados; la conversión requiere reinterpret_cast, conversión de estilo de C o conversión de estilo de función
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winbase.h(4597,1): message : vea la declaración de 'GetPrivateProfileIntA'
+D:\github_clones\GVONavish\GVONavish\GVOConfig.h(110,1): error C2664: 'UINT GetPrivateProfileIntA(LPCSTR,LPCSTR,INT,LPCSTR)': el argumento 1 no puede convertirse de 'LPCWSTR' a 'LPCSTR'
+D:\github_clones\GVONavish\GVONavish\GVOConfig.h(110,42): message : Los tipos señalados no están relacionados; la conversión requiere reinterpret_cast, conversión de estilo de C o conversión de estilo de función
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winbase.h(4597,1): message : vea la declaración de 'GetPrivateProfileIntA'
+D:\github_clones\GVONavish\GVONavish\GVOConfig.h(111,1): error C2664: 'UINT GetPrivateProfileIntA(LPCSTR,LPCSTR,INT,LPCSTR)': el argumento 1 no puede convertirse de 'LPCWSTR' a 'LPCSTR'
+D:\github_clones\GVONavish\GVONavish\GVOConfig.h(111,42): message : Los tipos señalados no están relacionados; la conversión requiere reinterpret_cast, conversión de estilo de C o conversión de estilo de función
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winbase.h(4597,1): message : vea la declaración de 'GetPrivateProfileIntA'
+D:\github_clones\GVONavish\GVONavish\GVOConfig.h(112,1): error C2664: 'UINT GetPrivateProfileIntA(LPCSTR,LPCSTR,INT,LPCSTR)': el argumento 1 no puede convertirse de 'LPCWSTR' a 'LPCSTR'
+D:\github_clones\GVONavish\GVONavish\GVOConfig.h(112,44): message : Los tipos señalados no están relacionados; la conversión requiere reinterpret_cast, conversión de estilo de C o conversión de estilo de función
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winbase.h(4597,1): message : vea la declaración de 'GetPrivateProfileIntA'
+D:\github_clones\GVONavish\GVONavish\GVOConfig.h(113,1): error C2664: 'UINT GetPrivateProfileIntA(LPCSTR,LPCSTR,INT,LPCSTR)': el argumento 1 no puede convertirse de 'LPCWSTR' a 'LPCSTR'
+D:\github_clones\GVONavish\GVONavish\GVOConfig.h(113,44): message : Los tipos señalados no están relacionados; la conversión requiere reinterpret_cast, conversión de estilo de C o conversión de estilo de función
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winbase.h(4597,1): message : vea la declaración de 'GetPrivateProfileIntA'
+D:\github_clones\GVONavish\GVONavish\GVOConfig.h(114,1): error C2664: 'UINT GetPrivateProfileIntA(LPCSTR,LPCSTR,INT,LPCSTR)': el argumento 1 no puede convertirse de 'LPCWSTR' a 'LPCSTR'
+D:\github_clones\GVONavish\GVONavish\GVOConfig.h(114,46): message : Los tipos señalados no están relacionados; la conversión requiere reinterpret_cast, conversión de estilo de C o conversión de estilo de función
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winbase.h(4597,1): message : vea la declaración de 'GetPrivateProfileIntA'
+D:\github_clones\GVONavish\GVONavish\GVOConfig.h(117,1): error C2664: 'UINT GetPrivateProfileIntA(LPCSTR,LPCSTR,INT,LPCSTR)': el argumento 1 no puede convertirse de 'LPCWSTR' a 'LPCSTR'
+D:\github_clones\GVONavish\GVONavish\GVOConfig.h(117,52): message : Los tipos señalados no están relacionados; la conversión requiere reinterpret_cast, conversión de estilo de C o conversión de estilo de función
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winbase.h(4597,1): message : vea la declaración de 'GetPrivateProfileIntA'
+D:\github_clones\GVONavish\GVONavish\GVOConfig.h(118,1): error C2664: 'UINT GetPrivateProfileIntA(LPCSTR,LPCSTR,INT,LPCSTR)': el argumento 1 no puede convertirse de 'LPCWSTR' a 'LPCSTR'
+D:\github_clones\GVONavish\GVONavish\GVOConfig.h(118,52): message : Los tipos señalados no están relacionados; la conversión requiere reinterpret_cast, conversión de estilo de C o conversión de estilo de función
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winbase.h(4597,1): message : vea la declaración de 'GetPrivateProfileIntA'
+D:\github_clones\GVONavish\GVONavish\GVOConfig.h(122,1): error C2664: 'UINT GetPrivateProfileIntA(LPCSTR,LPCSTR,INT,LPCSTR)': el argumento 1 no puede convertirse de 'LPCWSTR' a 'LPCSTR'
+D:\github_clones\GVONavish\GVONavish\GVOConfig.h(122,54): message : Los tipos señalados no están relacionados; la conversión requiere reinterpret_cast, conversión de estilo de C o conversión de estilo de función
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winbase.h(4597,1): message : vea la declaración de 'GetPrivateProfileIntA'
+D:\github_clones\GVONavish\GVONavish\GVOConfig.h(123,1): error C2664: 'DWORD GetPrivateProfileStringA(LPCSTR,LPCSTR,LPCSTR,LPSTR,DWORD,LPCSTR)': el argumento 1 no puede convertirse de 'LPCWSTR' a 'LPCSTR'
+D:\github_clones\GVONavish\GVONavish\GVOConfig.h(123,30): message : Los tipos señalados no están relacionados; la conversión requiere reinterpret_cast, conversión de estilo de C o conversión de estilo de función
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winbase.h(4645,1): message : vea la declaración de 'GetPrivateProfileStringA'
+D:\github_clones\GVONavish\GVONavish\GVOConfig.h(125,1): error C2664: 'DWORD GetPrivateProfileStringA(LPCSTR,LPCSTR,LPCSTR,LPSTR,DWORD,LPCSTR)': el argumento 1 no puede convertirse de 'LPCWSTR' a 'LPCSTR'
+D:\github_clones\GVONavish\GVONavish\GVOConfig.h(125,30): message : Los tipos señalados no están relacionados; la conversión requiere reinterpret_cast, conversión de estilo de C o conversión de estilo de función
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winbase.h(4645,1): message : vea la declaración de 'GetPrivateProfileStringA'
+D:\github_clones\GVONavish\GVONavish\GVOConfig.h(127,1): error C2664: 'UINT GetPrivateProfileIntA(LPCSTR,LPCSTR,INT,LPCSTR)': el argumento 1 no puede convertirse de 'LPCWSTR' a 'LPCSTR'
+D:\github_clones\GVONavish\GVONavish\GVOConfig.h(127,59): message : Los tipos señalados no están relacionados; la conversión requiere reinterpret_cast, conversión de estilo de C o conversión de estilo de función
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winbase.h(4597,1): message : vea la declaración de 'GetPrivateProfileIntA'
+  Generando código...
