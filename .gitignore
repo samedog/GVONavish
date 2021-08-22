@@ -9,4 +9,3 @@ ipch/
 .vs/
 *.user
 *.filters
-*.vcxproj
