@@ -1,7 +1,12 @@
 This is a translation of GVONavish (Japanese) for GAMA server since it has a little more functionality over GVONavi (mostly the route manager) maybe will add notes and other fucntions depending on my needs.
 
 
-As soon as nprotect let me play on my Windows 11 machine i'll look for the current map and fix any possible issues,also maybe i'll bring the funtionality i promised (notes)
+- Code update to 64bits is done, releases will be in 64bits from now on.
+- Updates for Visual Studio 2019 and the Windows 10 SDK (10.0.19041.0) are completed.
+
+
+As soon as nprotect let me play on my Windows 11 machine i'll start updating the code for c++17, look for the current map and fix any possible issues.
+Also maybe i'll bring the funtionality i promised (notes) as soon as the C++17 update is done.
 
 
 Site:
