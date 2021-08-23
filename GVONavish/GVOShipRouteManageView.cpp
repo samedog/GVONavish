@@ -92,13 +92,13 @@ void GVOShipRouteManageView::onShipRouteListRemoveAllItems()
 }
 
 
-BOOL CALLBACK GVOShipRouteManageView::dlgProcThunk( HWND hwnd, UINT msg, WPARAM wp, LPARAM lp )
+INT_PTR  CALLBACK GVOShipRouteManageView::dlgProcThunk( HWND hwnd, UINT msg, WPARAM wp, LPARAM lp )
 {
-	GVOShipRouteManageView * instance = reinterpret_cast<GVOShipRouteManageView *>(::GetWindowLong( hwnd, GWL_USERDATA ));
+	GVOShipRouteManageView * instance = reinterpret_cast<GVOShipRouteManageView *>(::GetWindowLong( hwnd, GWLP_USERDATA));
 	if ( msg == WM_INITDIALOG ) {
 		instance = reinterpret_cast<GVOShipRouteManageView *>(lp);
 		instance->m_hwnd = hwnd;
-		::SetWindowLongPtr( hwnd, GWL_USERDATA, reinterpret_cast<LONG_PTR>(instance) );
+		::SetWindowLongPtr( hwnd, GWLP_USERDATA, reinterpret_cast<LONG_PTR>(instance) );
 	}
 	if ( !instance ) {
 		return FALSE;

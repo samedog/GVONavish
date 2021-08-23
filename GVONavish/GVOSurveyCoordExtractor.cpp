@@ -171,7 +171,7 @@ int GVOSurveyCoordExtractor::extractOneNumbersForHeight11()
 
 		bitString += vertString;
 
-		if ( bitString.length() < maskLength ) {
+		if ( bitString.size() < maskLength ) {
 			for ( size_t i = 0; i < k_sampleBits.size(); ++i ) {
 				const std::string& sample = k_sampleBits[i];
 				if ( sample.compare( 0, bitString.length(), bitString ) == 0 ) {

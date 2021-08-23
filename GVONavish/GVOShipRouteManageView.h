@@ -43,7 +43,7 @@ public:
 	virtual void onShipRouteListRemoveItem( GVOShipRoutePtr shipRoute ) override;
 	virtual void onShipRouteListRemoveAllItems() override;
 private:
-	static BOOL CALLBACK dlgProcThunk( HWND hwnd, UINT msg, WPARAM wp, LPARAM lp );
+	static INT_PTR CALLBACK dlgProcThunk( HWND hwnd, UINT msg, WPARAM wp, LPARAM lp );
 	BOOL CALLBACK dlgProc( UINT msg, WPARAM wp, LPARAM lp );
 	void onCommand(WORD eventCode, WORD cmdId, HANDLE ctrl);
 	void onNotify( LPNMHDR nmh );

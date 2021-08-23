@@ -3,6 +3,8 @@
 #include <memory>
 #include <vector>
 #include <Windows.h>
+#include <string>
+
 
 #include "GVONoncopyable.h"
 

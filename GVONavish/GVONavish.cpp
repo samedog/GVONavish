@@ -44,7 +44,7 @@ HDC g_hdcMain;
 static ATOM MyRegisterClass( HINSTANCE hInstance );
 static BOOL InitInstance( HINSTANCE, int );
 LRESULT CALLBACK WndProc( HWND, UINT, WPARAM, LPARAM );
-BOOL CALLBACK aboutDlgProc( HWND, UINT, WPARAM, LPARAM );
+INT_PTR CALLBACK aboutDlgProc( HWND, UINT, WPARAM, LPARAM );
 static LRESULT s_mainLoop();
 
 
@@ -73,8 +73,8 @@ static void s_closeShipRoute();
 
 // Local variables
 static LPCWSTR const k_appName = L"GVONavish";		// Application Name
-static LPCWSTR const k_translated = L"Translated by the_sameog";
-static LPCWSTR const k_version = L"ver 1.3.2.1";	// Version number
+static LPCWSTR const k_translated = L"Translated by the_samedog";
+static LPCWSTR const k_version = L"ver 1.3.2.1-1 (64bits)";	// Version number
 static LPCWSTR const k_copyright = L"copyright(c) 2014 @MandhelingFreak";	// Copyright notice (One time)
 
 static LPCWSTR const k_windowClassName = L"GVONavish";		// Main window class name
@@ -82,7 +82,7 @@ static const LPCWSTR k_configFileName = L"GVONavish.ini";	// Settings file name
 static LPCWSTR const k_appMutexName = L"Global\\{7554E265-3247-4FCA-BC60-5AA814658351}";
 static HANDLE s_appMutex;
 
-static Gdiplus::GdiplusStartupInput s_gdisi;
+static Gdiplus::GdiplusStartupInput s_gdisi;	
 static ULONG_PTR s_gdiToken;
 
 static GVOConfig s_config( k_configFileName );
@@ -766,7 +766,7 @@ static void s_closeShipRoute()
 }
 
 
-BOOL CALLBACK aboutDlgProc( HWND hwnd, UINT msg, WPARAM wp, LPARAM lp)
+INT_PTR CALLBACK aboutDlgProc( HWND hwnd, UINT msg, WPARAM wp, LPARAM lp)
 {
 	switch ( msg ) {
 	case WM_INITDIALOG:

@@ -1,7 +1,7 @@
 #include "stdafx.h"
 #include "GVOShipRoute.h"
 #include "GVOVector.h"
-
+#include <iostream>
 
 namespace {
 	struct ChunkHeader {

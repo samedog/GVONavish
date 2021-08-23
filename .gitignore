@@ -4,6 +4,8 @@
 *.opendb
 GVONavish/.vs/
 GVONavish/archive/
+GVONavish/x64/
 archive/
 ipch/
 .vs/
+.x64/
